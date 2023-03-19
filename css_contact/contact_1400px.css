@@ -1,0 +1,216 @@
+/* TOP NAVIGATION OF THE PAGE */
+/* TOP NAVIGATION OF THE PAGE */
+/* TOP NAVIGATION OF THE PAGE */
+/* TOP NAVIGATION OF THE PAGE */
+/* TOP NAVIGATION OF THE PAGE */
+
+* {
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+}
+
+img.logo {
+  border: 0px solid #ddd;
+  border-radius: 4px;
+  padding: 20px;
+  width: 50px;
+  height: 50px;
+}
+
+.topnav {
+  float: right;
+  font-size: 22px;
+  padding-top: 30px;
+  padding-right: 25px;
+}
+
+a.active {
+  text-decoration: none;
+  color: #95f9e3;
+}
+
+a.btn {
+  text-decoration: none;
+  color: black;
+}
+
+.btn:hover {
+  color: aquamarine;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+}
+
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+/* CONTACT FORM INTRODUCTION */
+
+.title {
+  font-size: 50px;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
+.intro {
+  font-size: 22px;
+
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+/* CONTACT FORM SECTION ONLY */
+/* CONTACT FORM SECTION ONLY */
+/* CONTACT FORM SECTION ONLY */
+/* CONTACT FORM SECTION ONLY */
+/* CONTACT FORM SECTION ONLY */
+
+/* Style inputs with type="text", select elements and textareas */
+input[type="text"],
+select,
+textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical; /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type="submit"] {
+  background-color: #04aa6d;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.container {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 40px;
+}
+
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+
+.submit {
+  padding: 20px;
+  color: white;
+  background-color: darkcyan;
+
+  border-radius: 10px;
+  border-color: 0px;
+
+  margin-right: 70px;
+}
+
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+
+.home {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 400px;
+}
+
+.centerbtn {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 130px;
+}
+
+.contacts {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 130px;
+}
+
+button:hover {
+  background-color: #f88379;
+
+  margin-top: -20px;
+}
+
+button:click::after {
+  background-color: #ff4040;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+
+.ending {
+  width: 1500px;
+  height: 220px;
+
+  position: absolute;
+
+  margin-left: -100px;
+  margin-top: -55px;
+  opacity: 0.8;
+  z-index: 1000px;
+}
+
+.name {
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+
+  margin-top: 130px;
+}
+
+.names {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+}
+
+.name-s {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  color: blue;
+}
