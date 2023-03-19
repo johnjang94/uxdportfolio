@@ -1,0 +1,38 @@
+.menu_picture {
+  width: 377.51px;
+  height: 314px;
+
+  border: 5px solid #efefef;
+}
+
+.menu {
+  color: #000000;
+
+  font-size: 15px;
+  font-weight: 700;
+
+  width: 91.88px;
+
+  margin-left: 142.81px;
+}
+
+.menu_description {
+  font-size: 15px;
+  font-weight: 400;
+
+  width: 316px;
+  height: 36px;
+
+  color: #000000;
+
+  margin-top: 5px;
+  margin-left: 31px;
+}
+
+.menu-box {
+  width: 385px;
+  height: 135px;
+
+  background-color: #fafafa;
+  border-top: 3px solid #000000;
+}
