@@ -1,0 +1,14 @@
+body {
+  margin-top: 100px;
+  margin-left: 100px;
+}
+
+.overview1 {
+  width: 328px;
+  height: 217px;
+}
+
+#overview1.expanded {
+  width: 900px;
+  height: 550px;
+}
