@@ -1,5 +1,4 @@
 /* Navigation */
-
 * {
   margin-top: 10px;
   margin-left: 15px;
@@ -18,16 +17,19 @@ img.logo {
   height: 50px;
 }
 
+/* RESPONSIVE DESIGN FOR LAPTOP COMPUTER */
+
 .topnav {
   float: right;
   font-size: 22px;
-  padding-top: 30px;
-  padding-right: 25px;
+
+  padding-top: 40px;
+  padding-right: 170px;
 }
 
 a.active {
   text-decoration: none;
-  color: #95f9e3;
+  color: blue;
 }
 
 a.btn {
@@ -36,11 +38,21 @@ a.btn {
 }
 
 .btn:hover {
-  color: aquamarine;
+  color: blueviolet;
 }
 
 .btn:click::after {
   color: #b87fdb;
+}
+
+/* Project Name goes here */
+/* Project Name goes here */
+/* Project Name goes here */
+/* Project Name goes here */
+/* Project Name goes here */
+
+.introduction {
+  position: relative;
 }
 
 /* Sticky Floating Menu */
@@ -51,31 +63,37 @@ a.btn {
 
 .floating-menu {
   font-family: sans-serif;
-  background: #feca6e;
-  padding: 5px;
+  background: #add8e6;
   border-radius: 15px;
-  width: fit-content;
-  z-index: 100;
+
+  width: 170px;
   position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
   margin-top: 10px;
-  margin-left: -30px;
-  opacity: 0.15;
+  margin-left: -200px;
 }
 
 .floating-menu:hover {
-  box-shadow: 0 5px 5px 5px rgba(240, 215, 170, 0.8);
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
   opacity: 1;
   transition-duration: 1s ease-in-and-out;
+
+  margin-left: -42px;
 }
 
 .floating-menu a,
 .floating-menu h3 {
-  font-size: 0.9em;
-  display: block;
-  margin: 0 0.5em;
   color: black;
-  padding-inline: 5px;
+  display: block;
+  font-size: 0.9em;
+  width: 140px;
+
   padding-block: 3px;
+  margin: 0px;
 }
 
 .linksize {
@@ -83,20 +101,18 @@ a.btn {
 }
 
 .linksize:hover {
-  color: #ff4040;
+  color: white;
 }
 
-/* Introduction */
-/* Introduction */
-/* Introduction */
-/* Introduction */
-/* Introduction */
+/* OVERVIEW BEGINS HERE */
+/* OVERVIEW BEGINS HERE */
+/* OVERVIEW BEGINS HERE */
+/* OVERVIEW BEGINS HERE */
+/* OVERVIEW BEGINS HERE */
 
-.introduction {
-  position: relative;
-}
+.overview {
+  font-size: 65px;
 
-.intro_dec {
   background-color: black;
   background-image: linear-gradient(
     -45deg,
@@ -112,231 +128,432 @@ a.btn {
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
-  margin-top: 100px;
-  margin-bottom: 50px;
 
-  text-align: center;
-  font-size: 50px;
-}
-
-/* Prologue */
-/* Prologue */
-/* Prologue */
-
-.prologuedescription {
-  font-size: x-large;
-  margin-left: 350px;
-  max-width: 700px;
-}
-
-.prologueimg {
-  width: 500px;
-  margin-left: 170px;
   margin-top: 50px;
+  margin-left: 350px;
+}
+
+/* This is where we talk about the original version of TeleVU Products */
+/* This is where we talk about the original version of TeleVU Products */
+/* This is where we talk about the original version of TeleVU Products */
+/* This is where we talk about the original version of TeleVU Products */
+/* This is where we talk about the original version of TeleVU Products */
+
+.original {
+  font-weight: 600;
+  font-size: 25px;
+
+  margin-top: 70px;
+  margin-left: 60px;
+  margin-bottom: 10px;
+}
+
+.originalspan {
+  margin-left: 60px;
+}
+
+.originalglassvugrid {
+  margin-top: 40px;
+}
+
+.glassvudescription {
+  font-weight: 300;
+
+  margin-left: 180px;
+}
+
+/* Original GlassVU */
+/* Original GlassVU */
+/* Original GlassVU */
+
+.original-glassvu-card {
+  /* Add shadows to create the "card" effect */
+  background-color: #f5f5f5;
+  height: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
+  transition: 0.3s;
+  border-radius: 15px;
+
+  margin-top: -10px;
+  margin-left: 30px;
+}
+
+/* Add some padding inside the card container */
+.glassvu1 {
+  font-weight: 300;
+
+  margin-left: 140px;
+  margin-bottom: 30px;
+}
+
+.original-glassvu {
+  width: 1000px;
+  height: auto;
+
+  padding-bottom: 8px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.originalglassvuimage {
+  width: 390px;
+  height: auto;
+
+  padding-bottom: 8px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+
+.popup .overlay {
+  position: fixed;
+
+  top: -10px;
+  left: -20px;
+  right: -20px;
+
+  width: 110vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup .content {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 45%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1100px;
+  height: 550px;
+
+  z-index: 2;
+}
+
+.popup .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup.active .overlay {
+  display: block;
+}
+
+.popup.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* Original ReportVU */
+/* Original ReportVU */
+/* Original ReportVU */
+
+.originalreportvuimage {
+  width: 390px;
+  height: auto;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.original-reportvu-card {
+  /* Add shadows to create the "card" effect */
+  background-color: #f5f5f5;
+  height: auto;
+
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
+  transition: 0.3s;
+  border-radius: 15px;
+
+  margin-top: -235px;
+  margin-left: 500px;
+}
+
+/* Add some padding inside the card container */
+.reportvu1 {
+  font-weight: 300;
+
+  position: absolute;
+
+  margin-top: -305px;
+  margin-left: 670px;
+  margin-bottom: 30px;
+}
+
+.original-reportvu {
+  width: 990px;
+  height: auto;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Original Video-Conference */
+/* Original Video-Conference */
+/* Original Video-Conference */
+
+.original-vid-con-card {
+  /* Add shadows to create the "card" effect */
+  background-color: #f5f5f5;
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
+  height: auto;
+
+  transition: 0.3s;
+  border-radius: 15px;
+
+  margin-top: -270px;
+  margin-left: 970px;
+  margin-right: 30px;
+}
+
+/* Add some padding inside the card container */
+.vid-con {
+  margin-top: -290px;
+  margin-left: 1050px;
+  margin-bottom: 270px;
+}
+
+.vid-con1 {
+  font-weight: 300;
+}
+
+.original-vid-con {
+  width: 890px;
+  height: auto;
+
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+.originalvidconimage {
+  width: 360px;
+  height: auto;
+
+  margin-left: 10px;
+  margin-bottom: 5px;
+}
+
+/* OVERVIEW -- Original Version Finished */
+/* OVERVIEW -- Original Version Finished */
+/* OVERVIEW -- Original Version Finished */
+/* OVERVIEW -- Original Version Finished */
+/* OVERVIEW -- Original Version Finished */
+
+/* OVERVIEW - New Version INTRO */
+/* OVERVIEW - New Version INTRO */
+/* OVERVIEW - New Version INTRO */
+/* OVERVIEW - New Version INTRO */
+/* OVERVIEW - New Version INTRO */
+
+.change {
+  text-align: right;
+  font-weight: 600;
+
+  margin-top: 60px;
+  margin-right: 80px;
+}
+
+.newfont {
+  font-size: 25px;
+
+  margin-right: 90px;
+}
+
+/* Redesigned GlassVU */
+/* Redesigned GlassVU */
+/* Redesigned GlassVU */
+
+.redesigned-glassvu {
+  width: 300px;
   height: auto;
 }
 
-.prologuespan {
-  margin-left: 320px;
-}
-
-.prologueimg2 {
-  width: 500px;
-  margin-left: 700px;
+.redesigned-glassvu-card {
+  background-color: #f5f5f5;
   height: auto;
+
+  /* Add shadows to create the "card" effect */
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
+  transition: 0.3s;
+  border-radius: 15px;
+
+  margin-top: 20px;
+  margin-left: 30px;
 }
 
-.prologuespan2 {
-  margin-left: 850px;
+/* Add some padding inside the card container */
+.redesignedglassvu {
+  font-weight: 300;
+
+  margin-top: -300px;
+  margin-left: 180px;
   margin-bottom: 200px;
 }
 
-.gradient-text {
-  background-color: black;
-  background-image: linear-gradient(
-    -45deg,
-    rgba(0, 133, 255, 1),
-    rgba(51, 255, 0, 1)
-  );
-  background-size: 100%;
-  background-repeat: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-  margin-top: 200px;
-
-  text-align: center;
-}
-
-.televuintro {
-  margin-left: 90px;
-  font-size: x-large;
-  width: 1200px;
-}
-
-.imgtelevu {
-  width: 1200px;
+.redesignglassvuimage {
+  width: 390px;
   height: auto;
 
-  margin-left: 80px;
-  margin-top: 30px;
-  margin-bottom: 100px;
-  border-radius: 20px;
-}
-.introquote {
-  text-align: center;
-  font-size: 35px;
+  margin-left: 10px;
+  margin-bottom: 8px;
 }
 
-/* Used Cases 1 */
-/* Used Cases 1 */
-/* Used Cases 1 */
+.redesign-glassvu {
+  width: 890px;
+  height: auto;
 
-.ERT1 {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 130px;
-  margin-right: -5px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
+  margin-left: 10px;
+  margin-bottom: 8px;
 }
 
-/* On mouse-over, add a deeper shadow */
-.ERT1:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-}
+/* Redesigned ReportVU */
+/* Redesigned ReportVU */
+/* Redesigned ReportVU */
 
-/* Add some padding inside the card container */
-.ERT1-1 {
-  margin-left: 150px;
-  margin-bottom: 35px;
-  font-size: larger;
-}
-
-.ERT1-exp {
-  font-weight: 300;
+.redesigned-reportvu {
   width: 300px;
-  margin-left: 10px;
-  margin-right: -15px;
-  padding-bottom: 10px;
-}
-
-.ERT_picture {
-  width: 210px;
   height: auto;
-  border-radius: 15px;
-  margin-left: 40px;
 }
 
-/* Used Cases 2 */
-/* Used Cases 2 */
-/* Used Cases 2 */
+.redesigned-reportvu-card {
+  /* Add shadows to create the "card" effect */
+  background-color: #f5f5f5;
+  height: auto;
 
-.rehab1 {
+  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
+  transition: 0.3s;
+  border-radius: 15px;
+
+  margin-top: -280px;
+  margin-left: 500px;
+}
+
+/* Add some padding inside the card container */
+.redesignedreportvu {
+  font-weight: 300;
+
+  margin-top: -310px;
+  margin-left: 620px;
+  margin-bottom: 200px;
+}
+
+.redesignreportvuimage {
+  width: 390px;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+.redesign-reportvu {
+  width: 890px;
+  height: auto;
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
+/* Redesigned Video Conference Page */
+/* Redesigned Video Conference Page */
+/* Redesigned Video Conference Page */
+
+.redesigned-vid-conference {
+  width: 300px;
+  height: auto;
+}
+
+.redesigned-vid-conference-card {
+  background-color: #f5f5f5;
+  height: auto;
+
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 100px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-}
 
-/* On mouse-over, add a deeper shadow */
-.rehab1:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
+  margin-top: -310px;
+  margin-left: 980px;
+  margin-right: 20px;
 }
 
 /* Add some padding inside the card container */
-.rehab1-1 {
-  margin-left: 180px;
-  margin-bottom: 35px;
-  font-size: larger;
-}
-
-.rehab1-exp {
+.redesignedvidconference {
   font-weight: 300;
-  width: 299px;
-  margin-left: 10px;
-  margin-right: 0px;
-  padding-bottom: 10px;
+
+  margin-top: -325px;
+  margin-left: 1030px;
+  margin-bottom: 200px;
 }
 
-.rehab_picture {
-  width: 210px;
+.redesignvidconferenceimage {
+  width: 340px;
   height: auto;
-  border-radius: 15px;
-  margin-left: 50px;
+
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-/* Used Case 3 */
-/* Used Case 3 */
-/* Used Case 3 */
+.redesign-vid-conference {
+  width: 740px;
+  height: auto;
 
-.surgery3 {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 100px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
+  margin-left: 10px;
+  margin-bottom: 10px;
 }
 
-/* On mouse-over, add a deeper shadow */
-.surgery3:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
+/* OVERVIEW FINISHD AT THIS POINT */
+/* OVERVIEW FINISHD AT THIS POINT */
+/* OVERVIEW FINISHD AT THIS POINT */
+/* OVERVIEW FINISHD AT THIS POINT */
+/* OVERVIEW FINISHD AT THIS POINT */
+/* OVERVIEW FINISHD AT THIS POINT */
+
+/* PROJECT BRIEFING INFORMATION */
+/* PROJECT BRIEFING INFORMATION */
+/* PROJECT BRIEFING INFORMATION */
+/* PROJECT BRIEFING INFORMATION */
+/* PROJECT BRIEFING INFORMATION */
+
+.distance-brief {
+  margin-top: 70px;
+  margin-bottom: 300px;
 }
 
-/* Add some padding inside the card container */
-.surgery3-1 {
-  width: 205px;
-  margin-left: 190px;
-  margin-right: -15px;
-  margin-bottom: 30px;
-  font-size: larger;
+.gap2 {
+  margin-top: 100px;
 }
 
-.surgery {
-  width: 230px;
-  height: 230px;
-  border-radius: 15px;
-  margin-left: 20px;
-}
-
-.surgery3-exp {
-  font-weight: 300;
-  margin-right: 10px;
-  width: 250px;
-  padding-bottom: 10px;
-}
-
-/* PROLOGUE FINISHED FROM HERE */
-/* PROLOGUE FINISHED FROM HERE */
-/* PROLOGUE FINISHED FROM HERE */
-/* PROLOGUE FINISHED FROM HERE */
-/* PROLOGUE FINISHED FROM HERE */
-
-.distance {
-  margin-bottom: 250px;
-}
-
-.about-title {
-  font-size: 50px;
-  margin-top: 250px;
-  text-align: center;
+.abouttheproject {
+  font-size: 55px;
 
   background-color: black;
   background-image: linear-gradient(
@@ -353,50 +570,301 @@ a.btn {
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
+  margin-top: 160px;
+  margin-left: 290px;
 }
 
-.about {
+.projectbrief {
+  font-size: 20px;
+  width: 920px;
+
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.category {
   float: left;
-  margin-left: 250px;
-  margin-top: 80px;
-}
+  font-size: 20px;
+  font-weight: 600;
 
-.about2 {
-  float: left;
-  margin-left: 150px;
-  margin-top: 80px;
-  margin-bottom: 100px;
-}
-
-tr {
-  text-align: left;
+  margin-top: 50px;
+  margin-left: 100px;
+  margin-right: 105px;
 }
 
 .designtable {
+  font-size: 20px;
+
   background-color: #9addfb;
   border-radius: 5px;
-  width: fit-content;
+  width: 355px;
+
   padding: 5px;
+
+  margin-top: 65px;
+}
+
+.subcategory {
   text-align: center;
 }
 
-/* Above is "ABOUT THE PROJECT" section */
-/* Above is "ABOUT THE PROJECT" section */
-/* Above is "ABOUT THE PROJECT" section */
-/* Above is "ABOUT THE PROJECT" section */
-/* Above is "ABOUT THE PROJECT" section */
+.durationtime {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
 
-.distance2 {
-  margin-top: 250px;
+  margin-top: 17px;
+  margin-left: 100px;
+  margin-right: 30px;
 }
 
-.distance-brief {
+.designduration {
+  font-size: 20px;
+  text-align: center;
+
+  background-color: #9addfb;
+  border-radius: 5px;
+  width: 342px;
+
+  padding: 8px;
+
+  margin-top: 65px;
+}
+
+.myrole {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: -89px;
+  margin-left: 730px;
+  margin-right: 105px;
+}
+
+.uxresearcher {
+  font-size: 20px;
+  text-align: center;
+
+  background-color: #9addfb;
+  border-radius: 5px;
+  width: 355px;
+
+  padding: 6px;
+
+  margin-top: -94px;
+  margin-left: 870px;
+}
+
+.toolsused {
+  float: left;
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: -35px;
+  margin-left: 730px;
+  margin-right: 30px;
+}
+
+.toolsdetail {
+  font-size: 20px;
+  text-align: center;
+
+  background-color: #9addfb;
+  border-radius: 5px;
+  width: 355px;
+
+  padding: 5px;
+
+  margin-top: 13px;
+  margin-left: 870px;
+}
+
+/* INTRODUCTION OF CLIENT'S COMPANY */
+/* INTRODUCTION OF CLIENT'S COMPANY */
+/* INTRODUCTION OF CLIENT'S COMPANY */
+/* INTRODUCTION OF CLIENT'S COMPANY */
+/* INTRODUCTION OF CLIENT'S COMPANY */
+
+.televu {
+  font-size: 55px;
+
+  background-color: black;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 133, 255, 1),
+    rgba(51, 255, 0, 1)
+  );
+  background-size: 100%;
+  background-repeat: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-top: -160px;
+  margin-left: 210px;
+  margin-bottom: 50px;
+}
+
+.room {
+  margin-left: -5px;
+  margin-top: 50px;
+}
+
+.televu_intro {
+  font-size: 20px;
+  width: 920px;
+
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.televu_intro2 {
+  font-size: 20px;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.televudevices {
+  width: 900px;
+  height: auto;
+
+  margin-left: 170px;
+}
+
+.televudevicesspan {
+  margin-left: 550px;
+}
+
+.televuconference {
+  width: 300px;
+  height: 200px;
+
+  margin-left: 50px;
+}
+
+.televuintroimg {
+  width: 900px;
+  height: auto;
+
+  margin-left: 170px;
+}
+
+.televusmartglass {
+  margin-left: 430px;
+}
+
+/* Brief Discussion on the challenge part of the project */
+/* Brief Discussion on the challenge part of the project */
+/* Brief Discussion on the challenge part of the project */
+
+.challengeintro {
+  font-size: 55px;
+  color: red;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
   margin-top: 120px;
-  margin-bottom: 100px;
+  margin-left: 430px;
+  margin-bottom: 80px;
 }
 
-.project-title {
+.challengeintrodescriptionhead {
+  font-size: 20px;
+  width: 920px;
+
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+.challengeintrodescription {
+  font-size: 20px;
+  font-weight: 300;
+  width: 940px;
+
+  margin-left: 170px;
+}
+
+/* Brief Discussion on how I perceived the project */
+/* Brief Discussion on how I perceived the project */
+/* Brief Discussion on how I perceived the project */
+
+.projectperception {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.projectperceptiondescription {
+  font-size: 20px;
+  font-weight: 300;
+  width: 960px;
+
+  margin-left: 170px;
+}
+
+.accomplishment {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.accomplishmentdescription {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.questiondelivery {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.questionanswer {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.questionanswerdetail {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  position: absolute;
+
+  margin-top: -23px;
+  margin-left: 450px;
+}
+
+/* Above is "ABOUT THE PROJECT" section */
+/* Above is "ABOUT THE PROJECT" section */
+/* Above is "ABOUT THE PROJECT" section */
+/* Above is "ABOUT THE PROJECT" section */
+/* Above is "ABOUT THE PROJECT" section */
+
+.project_journey {
   text-align: center;
+  font-size: 75px;
   color: #65a765;
 
   margin-block-start: 0px;
@@ -417,465 +885,719 @@ tr {
   margin-bottom: 70px;
 }
 
-/* The Problem */
-/* The Problem */
-
-.problem-brief {
-  text-align: center;
-  margin-bottom: 30px;
-
-  background-color: red;
-  background-image: red;
-  background-size: 100%;
-  background-repeat: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
-
-.problem-description {
-  font-size: 22px;
-
-  max-width: 660px;
-
-  margin-bottom: 70px;
-  margin-left: 370px;
-}
-
-span {
-  color: red;
-  text-decoration: underline;
-  margin-left: -0.5px;
-}
-
-.thegoal {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #65a765;
-}
-
-.thegoaldesc {
-  font-size: 22px;
-  width: 700px;
-
-  margin-left: 370px;
-  margin-bottom: 70px;
-}
-
-.task-done {
-  text-align: center;
-  margin-bottom: 30px;
-  color: #65a765;
-}
-
-.task-done-description {
-  font-size: 22px;
-  max-width: 660px;
-
-  margin-left: 360px;
-}
-
-.task {
-  margin-bottom: 200px;
-}
-
-/* "ABOUT THE PROJECT" secion finishes here */
-/* "ABOUT THE PROJECT" secion finishes here */
-/* "ABOUT THE PROJECT" secion finishes here */
-/* "ABOUT THE PROJECT" secion finishes here */
-/* "ABOUT THE PROJECT" secion finishes here */
-
-/* OVERVIEW BEGINS HERE */
-/* OVERVIEW BEGINS HERE */
-/* OVERVIEW BEGINS HERE */
-/* OVERVIEW BEGINS HERE */
-/* OVERVIEW BEGINS HERE */
-
-.overview {
-  font-size: 50px;
-  margin-top: 250px;
-  text-align: center;
-
-  background-color: black;
-  background-image: linear-gradient(
-    -45deg,
-    rgba(0, 133, 255, 1),
-    rgba(51, 255, 0, 1)
-  );
-  background-size: 100%;
-  background-repeat: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
-/* Original GlassVU */
-/* Original GlassVU */
-/* Original GlassVU */
-
-.original {
-  font-weight: 600;
-  font-size: 20px;
-  margin-top: 70px;
-  margin-bottom: 30px;
-  margin-left: 100px;
-}
-
-.original-glassvu-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 100px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.original-glassvu-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.glassvu1 {
-  font-weight: 300;
-
-  margin-left: 185px;
-  margin-bottom: 30px;
-}
-
-.original-glassvu {
-  width: 300px;
-  height: auto;
-
-  margin-left: 10px;
-  padding-bottom: 8px;
-}
-
-/* Original ReportVU */
-/* Original ReportVU */
-/* Original ReportVU */
-
-.original-reportvu-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 80px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.original-reportvu-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.reportvu1 {
-  font-weight: 300;
-  margin-left: 170px;
-  margin-bottom: 30px;
-}
-
-.original-reportvu {
-  width: 300px;
-  height: auto;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-/* Original Video-Conference */
-/* Original Video-Conference */
-/* Original Video-Conference */
-
-.original-vid-con-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 80px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.original-vid-con-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.vid-con1 {
-  font-weight: 300;
-  margin-bottom: 30px;
-  margin-left: 125px;
-}
-
-.original-vid-con {
-  width: 285px;
-  height: auto;
-  margin-left: 10px;
-  margin-bottom: 5px;
-}
-
-/* OVERVIEW -- Original Version Finished */
-/* OVERVIEW -- Original Version Finished */
-/* OVERVIEW -- Original Version Finished */
-/* OVERVIEW -- Original Version Finished */
-/* OVERVIEW -- Original Version Finished */
-
-/* OVERVIEW - New Version INTRO */
-/* OVERVIEW - New Version INTRO */
-/* OVERVIEW - New Version INTRO */
-/* OVERVIEW - New Version INTRO */
-/* OVERVIEW - New Version INTRO */
-
-.change {
-  text-align: right;
-  font-weight: 600;
-  font-size: 20px;
-
-  margin-top: 60px;
-  margin-right: 80px;
-}
-
-/* Redesigned GlassVU */
-/* Redesigned GlassVU */
-/* Redesigned GlassVU */
-
-.redesigned-glassvu {
-  width: 300px;
-  height: auto;
-}
-
-.redesigned-glassvu-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 100px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.redesigned-glassvu-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.redesigned-glassvu1 {
-  font-weight: 300;
-
-  margin-left: 180px;
-  margin-bottom: 30px;
-}
-
-.redesign-glassvu {
-  width: 300px;
-  height: auto;
-  margin-left: 10px;
-  margin-bottom: 8px;
-}
-
-/* Redesigned ReportVU */
-/* Redesigned ReportVU */
-/* Redesigned ReportVU */
-
-.redesigned-reportvu {
-  width: 300px;
-  height: auto;
-}
-
-.redesigned-reportvu-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 80px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.redesigned-reportvu-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.redesigned-reportvu1 {
-  font-weight: 300;
-  margin-bottom: 30px;
-  margin-left: 160px;
-}
-
-.redesign-reportvu {
-  width: 300px;
-  height: auto;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-/* Redesigned Video Conference Page */
-/* Redesigned Video Conference Page */
-/* Redesigned Video Conference Page */
-
-.redesigned-vid-conference {
-  width: 300px;
-  height: auto;
-}
-
-.redesigned-vid-conference-card {
-  /* Add shadows to create the "card" effect */
-  box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
-  transition: 0.3s;
-  border-radius: 15px;
-  margin-left: 80px;
-  margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.redesigned-vid-conference-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* Add some padding inside the card container */
-.redesigned-vid-conference1 {
-  font-weight: 300;
-  margin-left: 105px;
-  margin-bottom: 30px;
-}
-
-.redesign-vid-conference {
-  width: 280px;
-  height: 180px;
-  margin-left: 10px;
-  margin-bottom: 10px;
-}
-
-/* OVERVIEW FINISHD AT THIS POINT */
-/* OVERVIEW FINISHD AT THIS POINT */
-/* OVERVIEW FINISHD AT THIS POINT */
-/* OVERVIEW FINISHD AT THIS POINT */
-/* OVERVIEW FINISHD AT THIS POINT */
-/* OVERVIEW FINISHD AT THIS POINT */
-
-/* "PROJECT JOURNEY" section begins here" */
-/* "PROJECT JOURNEY" section begins here" */
-/* "PROJECT JOURNEY" section begins here" */
-/* "PROJECT JOURNEY" section begins here" */
-/* "PROJECT JOURNEY" section begins here" */
-
-.projectjourney {
-  text-align: center;
-
-  margin-bottom: 70px;
-  text-align: center;
-
-  background-color: black;
-  background-image: linear-gradient(
-    -45deg,
-    rgba(0, 133, 255, 1),
-    rgba(51, 255, 0, 1)
-  );
-  background-size: 100%;
-  background-repeat: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-
-  margin-block-start: 0px;
-  margin-block-end: 0px;
-  margin-inline-start: 0px;
-  margin-inline-end: 0px;
-}
-
 .journeyimage {
   width: 800px;
   height: auto;
-  margin-left: 250px;
+  margin-left: 370px;
   margin-top: 30px;
 }
 
-.span1 {
+.projectjourneydescription {
+  font-size: 20px;
+  color: black;
   text-decoration: none;
-  text-align: center;
-  margin-top: -20px;
+
+  margin-top: 10px;
+  margin-left: 620px;
+}
+
+.distance2 {
+  margin-top: 100px;
+}
+/* This is the beginning of the research phase */
+/* This is the beginning of the research phase */
+/* This is the beginning of the research phase */
+/* This is the beginning of the research phase */
+/* This is the beginning of the research phase */
+
+.understand {
+  color: #65a765;
+
+  font-size: 65px;
+  font-weight: 600;
+
+  width: 660px;
+
+  margin-left: 450px;
+}
+
+.understandintroduction {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+/* ASSUMPTIONS SECTION - INTRO */
+/* ASSUMPTIONS SECTION - INTRO */
+/* ASSUMPTIONS SECTION - INTRO */
+/* ASSUMPTIONS SECTION - INTRO */
+/* ASSUMPTIONS SECTION - INTRO */
+
+.assumptions {
+  font-size: 35px;
+  font-weight: 600;
+  color: #65a765;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-left: 170px;
+  margin-bottom: 30px;
+}
+.assumption {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-left: 200px;
+  margin-bottom: 30px;
+}
+
+.assumption_exp {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 180px;
   margin-bottom: 50px;
+}
+
+.assumptions_team {
+  font-size: 25px;
+  font-weight: 600;
+  color: black;
+
+  width: 920px;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-left: 195px;
+  margin-bottom: 30px;
+}
+
+.assumptions_team_description {
+  font-size: 20px;
+  font-weight: 300;
+
+  width: 920px;
+
+  margin-left: 190px;
+}
+
+/* TALKING ABOUT ASSUMPTIONS - TEAM */
+/* TALKING ABOUT ASSUMPTIONS - TEAM */
+/* TALKING ABOUT ASSUMPTIONS - TEAM */
+/* TALKING ABOUT ASSUMPTIONS - TEAM */
+/* TALKING ABOUT ASSUMPTIONS - TEAM */
+
+/* Video-Conference Session - Navigation */
+/* Video-Conference Session - Navigation */
+/* Video-Conference Session - Navigation */
+
+.vid_nav_session {
+  color: #65a765;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-top: 50px;
+  margin-left: 180px;
+}
+
+/* POP-UP IMAGE SECTION FOR ASSUMPTIONS PART */
+/* POP-UP IMAGE SECTION FOR ASSUMPTIONS PART */
+/* POP-UP IMAGE SECTION FOR ASSUMPTIONS PART */
+
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT */
+
+.popup1 .overlay {
+  position: fixed;
+
+  top: 140px;
+  left: 250px;
+
+  width: 56.5vw;
+  height: 50vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup1 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 48%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 870px;
+  height: 350px;
+
+  z-index: 2;
+}
+
+.popup1 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup1.active .overlay {
+  display: block;
+}
+
+.popup1.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* NAVIGATION - DETAIL */
+/* NAVIGATION - DETAIL */
+/* NAVIGATION - DETAIL */
+
+.clickable {
+  margin-left: 180px;
+}
+
+.nav1 {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: -270px;
+}
+
+.navigationimg {
+  width: 500px;
+  height: auto;
+
+  margin-top: -10px;
+  margin-left: 160px;
+  margin-bottom: 10px;
+}
+
+.navigationimg:hover {
+  margin-top: -20px;
+}
+
+.pad1 {
+  font-size: 17px;
+  font-weight: 300;
+
+  width: 370px;
+  color: black;
+
+  position: absolute;
+  padding: 20px;
+
+  margin-top: 35px;
+  margin-left: 5px;
+}
+
+.videoconferencesessionnavigationimage {
+  width: 650px;
+  height: auto;
+
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card1 {
+  font-size: 20px;
+
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+
+  width: 380px;
+  height: 255px;
+
+  position: absolute;
+
+  margin-top: -315px;
+  margin-left: 710px;
+
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.explained {
+  font-size: 25px;
+
+  margin-top: 110px;
+  margin-left: 130px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front1,
+.flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  margin-left: -15px;
+  margin-top: -10px;
+
+  border-radius: 20px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front1 {
+  background-color: #f5f5f5;
   color: black;
 }
 
-/* The Design Process */
-/* The Design Process */
-/* The Design Process */
+/* Style the back side */
+.flip-card-back1 {
+  background-color: #f5f5f5;
+  color: white;
+  transform: rotateY(180deg);
 
-.designprocess {
+  margin-left: 15px;
+}
+
+/* Video-Conference Session - Icons & Layouts*/
+/* Video-Conference Session - Icons & Layouts*/
+/* Video-Conference Session - Icons & Layouts*/
+
+.nav2 {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: -270px;
+}
+
+.iconsandlayouts {
+  width: 500px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: -10px;
+  margin-left: -1px;
+}
+
+.iconsandlayouts:hover {
+  margin-top: -20px;
+}
+
+.iconsandlayoutsimage {
+  width: 670px;
+  height: auto;
+
+  padding-left: 10px;
+
+  margin-top: 5px;
+}
+
+.pad2 {
+  font-size: 17px;
+  font-weight: 300;
+
+  width: 310px;
+  color: black;
+
+  position: absolute;
+  padding: 30px;
+
+  margin-top: 60px;
+}
+
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - ICONS & NAVIGATION */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - ICONS & NAVIGATION */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - ICONS & NAVIGATION */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - ICONS & NAVIGATION */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - ICONS & NAVIGATION */
+
+.popup2 .overlay {
+  position: fixed;
+
+  top: 140px;
+  left: 250px;
+
+  width: 56.5vw;
+  height: 50vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup2 .content {
+  position: absolute;
   text-align: center;
 
-  margin-bottom: 30px;
-  margin-right: 250px;
+  top: 47%;
+  left: 48%;
 
-  color: #65a765;
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 870px;
+  height: 350px;
+
+  z-index: 2;
 }
 
-.understand {
-  font-size: 22px;
+.popup2 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
   font-weight: 600;
-  max-width: 660px;
 
-  margin-left: 370px;
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
 }
+
+.popup2.active .overlay {
+  display: block;
+}
+
+.popup2.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card2 {
+  font-size: 20px;
+
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+
+  width: 380px;
+  height: 255px;
+
+  position: absolute;
+
+  margin-top: -305px;
+  margin-left: 710px;
+
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.explained {
+  font-size: 25px;
+
+  margin-top: 110px;
+  margin-left: 130px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner2 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card2:hover .flip-card-inner2 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front2,
+.flip-card-back2 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  margin-left: -15px;
+  margin-top: -10px;
+
+  border-radius: 20px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front2 {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back2 {
+  background-color: #f5f5f5;
+  color: white;
+  transform: rotateY(180deg);
+
+  margin-left: 15px;
+}
+
+/* Video-Conference Session - Interactivity*/
+/* Video-Conference Session - Interactivity*/
+/* Video-Conference Session - Interactivity*/
+
+.nav3 {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 180px;
+  margin-bottom: -270px;
+}
+
+.interactivity {
+  width: 500px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: -10px;
+  margin-left: -1px;
+}
+
+.interactivity:hover {
+  margin-top: -20px;
+  margin-left: -1px;
+}
+
+.interactivityimage {
+  width: 660px;
+  height: auto;
+
+  padding-left: 10px;
+
+  margin-top: 9px;
+}
+
+.pad3 {
+  font-size: 15px;
+  font-weight: 300;
+
+  width: 310px;
+  color: black;
+
+  position: absolute;
+  padding: 30px;
+
+  margin-top: 25px;
+}
+
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - INTERACTIVITY */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - INTERACTIVITY */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - INTERACTIVITY */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - INTERACTIVITY */
+/* POP-UP BUTTON FUNCTION INFORMATION FROM THIS POINT - INTERACTIVITY */
+
+.popup3 .overlay {
+  position: fixed;
+
+  top: 140px;
+  left: 250px;
+
+  width: 56.5vw;
+  height: 50vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup3 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 48%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 870px;
+  height: 350px;
+
+  z-index: 2;
+}
+
+.popup3 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup3.active .overlay {
+  display: block;
+}
+
+.popup3.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* The flip card container - set the width and height to whatever you want. We have added the border property to demonstrate that the flip itself goes out of the box on hover (remove perspective if you don't want the 3D effect */
+.flip-card3 {
+  font-size: 20px;
+
+  background-color: transparent;
+  border: 1px solid #f1f1f1;
+
+  width: 380px;
+  height: 255px;
+
+  position: absolute;
+
+  margin-top: -305px;
+  margin-left: 710px;
+
+  perspective: 1000px; /* Remove this if you don't want the 3D effect */
+}
+
+.explained {
+  font-size: 25px;
+
+  margin-top: 110px;
+  margin-left: 130px;
+}
+/* This container is needed to position the front and back side */
+.flip-card-inner3 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card3:hover .flip-card-inner3 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front3,
+.flip-card-back3 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  margin-left: -15px;
+  margin-top: -10px;
+
+  border-radius: 20px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front3 {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back3 {
+  background-color: #f5f5f5;
+  color: white;
+  transform: rotateY(180deg);
+
+  margin-left: 15px;
+}
+
+/* "DESIGN PROCESS" section begins here" */
+/* "DESIGN PROCESS" section begins here" */
+/* "DESIGN PROCESS" section begins here" */
+/* "DESIGN PROCESS" section begins here" */
+/* "DESIGN PROCESS" section begins here" */
 
 .understand-desc {
-  font-size: 22px;
+  font-size: 20px;
   font-weight: 300;
-  max-width: 660px;
+  width: 920px;
 
-  margin-left: 370px;
+  margin-top: 100px;
+  margin-left: 170px;
 }
 
-/* The Research Part */
-/* The Research Part */
-/* The Research Part */
-
-.research {
-  font-weight: 600;
-  font-size: 22px;
-  margin-left: 150px;
-  margin-top: 100px;
+.room3 {
   margin-bottom: 50px;
 }
 
@@ -888,7 +1610,7 @@ span {
 /* Add some padding inside the card container */
 .zoom1 {
   font-weight: 300;
-  margin-left: 250px;
+  margin-left: 150px;
   margin-bottom: 30px;
 }
 .zoom {
@@ -905,20 +1627,11 @@ span {
   border-radius: 15px;
   margin-left: 150px;
   margin-top: -10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
 }
 
-/* On mouse-over, add a deeper shadow */
-.zoom-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
-  height: auto;
-}
-
-/* The Design Process >> Understand phase */
+/* The Design Process >> Understand phase (Miro) */
 /* The Design Process >> Understand phase (Miro) */
 /* The Design Process >> Understand phase (Miro) */
 /* The Design Process >> Understand phase (Miro) */
@@ -926,35 +1639,50 @@ span {
 /* Add some padding inside the card container */
 .miro1 {
   font-weight: 300;
-  margin-left: 345px;
+  margin-left: 160px;
   margin-bottom: 30px;
 }
 
 .miro {
-  width: 300px;
+  width: 180px;
   height: auto;
+
   margin-left: 10px;
   margin-bottom: 10px;
 }
 
+.miro:hover {
+  width: 1200px;
+  height: auto;
+
+  position: absolute;
+
+  margin-top: -200px;
+  margin-left: -800px;
+
+  z-index: 1000px;
+}
+
 .miro-card {
   /* Add shadows to create the "card" effect */
+  background-color: #f5f5f5;
+  height: auto;
+
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 330px;
+
   margin-top: -10px;
-  background-color: #f5f1ee;
-  height: auto;
+  margin-left: 360px;
+  margin-right: 200px;
 }
 
 /* On mouse-over, add a deeper shadow */
 .miro-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
+
   margin-top: -20px;
-  width: auto;
-  height: auto;
 }
 
 .miro-interview {
@@ -972,7 +1700,7 @@ span {
 
   margin-top: 80px;
   margin-bottom: 20px;
-  margin-left: -40px;
+  margin-left: -180px;
 }
 
 .affinity-card {
@@ -980,21 +1708,14 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
+
+  width: 330px;
   margin-left: 500px;
   margin-top: 20px;
   margin-right: 560px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.affinity-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1004,34 +1725,454 @@ span {
   border-radius: 15px;
 }
 
-/* CONCLUSION */
-/* CONCLUSION */
-/* CONCLUSION */
+/* RESEARCH ANALYSIS AND INSIGHTS GATHERED */
+/* RESEARCH ANALYSIS AND INSIGHTS GATHERED */
+/* RESEARCH ANALYSIS AND INSIGHTS GATHERED */
+/* RESEARCH ANALYSIS AND INSIGHTS GATHERED */
+/* RESEARCH ANALYSIS AND INSIGHTS GATHERED */
 
-.discovery {
-  width: 660px;
+.userchallenges {
+  font-size: 55px;
+  color: red;
 
-  font-size: 22px;
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
 
-  margin-top: 50px;
-  margin-left: 370px;
+  margin-top: 90px;
+  margin-left: 250px;
+  margin-bottom: 30px;
 }
 
-.discoverylist {
-  width: 660px;
+.userchallenges-description {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
 
-  font-size: 22px;
-
-  margin-left: 380px;
+  margin-left: 170px;
 }
 
-.discovery2 {
-  margin-top: -30px;
+.insights {
+  color: #65a765;
+
+  font-size: 65px;
+  font-weight: 600;
+
   width: 660px;
 
-  font-size: 22px;
+  margin-top: 70px;
+  margin-left: 450px;
+}
 
-  margin-left: 370px;
+.lessons {
+  font-size: 35px;
+  font-weight: 600;
+  color: #65a765;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-top: 30px;
+  margin-left: 183px;
+  margin-bottom: 30px;
+}
+
+/* INSIGHT PART STARTS HERE */
+/* INSIGHT PART STARTS HERE */
+/* INSIGHT PART STARTS HERE */
+
+.Loginpage {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 185px;
+  margin-bottom: -270px;
+}
+
+.lesson1 {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.moreinfo {
+  position: absolute;
+
+  color: white;
+  background-color: blue;
+
+  font-size: 15px;
+
+  padding: 7px;
+  border-radius: 10px;
+
+  margin-top: -48px;
+  margin-left: 883px;
+}
+
+.moreinfo:hover {
+  background-color: lightblue;
+
+  margin-top: -50px;
+}
+
+.loginpageimage {
+  width: 800px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: 10px;
+  margin-left: -1px;
+  margin-bottom: 30px;
+}
+
+/* POP-UP SCREEN FOR LOGIN PAGE */
+/* POP-UP SCREEN FOR LOGIN PAGE */
+/* POP-UP SCREEN FOR LOGIN PAGE */
+
+.popup4 .overlay {
+  position: fixed;
+
+  top: 140px;
+  left: 250px;
+
+  width: 56.5vw;
+  height: 50vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup4 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 48%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 870px;
+  height: 350px;
+
+  z-index: 2;
+}
+
+.popup4 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup4.active .overlay {
+  display: block;
+}
+
+.popup4.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+.learned1 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 920px;
+
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.learned1_description {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+
+/* INSIGHT PART ABOUT THE NAVIGATION MENU */
+/* INSIGHT PART ABOUT THE NAVIGATION MENU */
+/* INSIGHT PART ABOUT THE NAVIGATION MENU */
+
+.Navigationmenu {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 185px;
+  margin-bottom: -270px;
+}
+
+.lesson2 {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+  width: 890px;
+
+  margin-left: 170px;
+  margin-bottom: 40px;
+}
+
+.navigationmenuimage {
+  width: 800px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.moreinfo2 {
+  position: absolute;
+
+  color: white;
+  background-color: blue;
+
+  font-size: 15px;
+
+  padding: 7px;
+  border-radius: 10px;
+
+  margin-top: -38px;
+  margin-left: 920px;
+}
+
+.moreinfo2:hover {
+  background-color: lightblue;
+
+  margin-top: -40px;
+}
+
+.learned2 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 920px;
+
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.learned2_description {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 29px;
+}
+
+/* INSIGHT PART FOR VIDEO-CONFERENCE SESSION FROM THIS POINT */
+/* INSIGHT PART FOR VIDEO-CONFERENCE SESSION FROM THIS POINT */
+/* INSIGHT PART FOR VIDEO-CONFERENCE SESSION FROM THIS POINT */
+
+.videoconferencesession {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 185px;
+  margin-bottom: -270px;
+}
+
+.lesson3 {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+  width: 890px;
+
+  margin-left: 170px;
+  margin-bottom: 40px;
+}
+
+.videoconferencesessionimg {
+  width: 800px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.moreinfo3 {
+  position: absolute;
+
+  color: white;
+  background-color: blue;
+
+  font-size: 15px;
+
+  padding: 7px;
+  border-radius: 10px;
+
+  margin-top: -38px;
+  margin-left: 920px;
+}
+
+.moreinfo3:hover {
+  background-color: lightblue;
+
+  margin-top: -40px;
+}
+
+.learned3 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 920px;
+
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.learned3_description {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 29px;
+}
+
+/* INSIGHT PART FOR HISTORY SESSION FROM THIS POINT */
+/* INSIGHT PART FOR HISTORY SESSION FROM THIS POINT */
+/* INSIGHT PART FOR HISTORY SESSION FROM THIS POINT */
+
+.history {
+  font-size: 20px;
+  font-weight: 600;
+
+  margin-top: 30px;
+  margin-left: 185px;
+  margin-bottom: -270px;
+}
+
+.lesson4 {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+  width: 890px;
+
+  margin-left: 170px;
+  margin-bottom: 60px;
+}
+
+.historyimage {
+  width: 800px;
+  height: auto;
+
+  padding-left: 160px;
+
+  margin-top: 10px;
+  margin-left: 30px;
+  margin-bottom: 30px;
+}
+
+.moreinfo4 {
+  position: absolute;
+
+  color: white;
+  background-color: blue;
+
+  font-size: 15px;
+
+  padding: 7px;
+  border-radius: 10px;
+
+  margin-top: -38px;
+  margin-left: 920px;
+}
+
+.moreinfo4:hover {
+  background-color: lightblue;
+
+  margin-top: -40px;
+}
+
+.learned4 {
+  font-size: 30px;
+  font-weight: 600;
+  width: 920px;
+
+  margin-top: 40px;
+  margin-left: -20px;
+}
+
+.learned4_description {
+  text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
+
+  margin-top: 60px;
+  margin-left: 30px;
+  margin-right: 29px;
+}
+
+/* INSIGHT PART FINISHES HERE */
+/* INSIGHT PART FINISHES HERE */
+/* INSIGHT PART FINISHES HERE */
+/* INSIGHT PART FINISHES HERE */
+/* INSIGHT PART FINISHES HERE */
+
+/* TALKING ABOUT THE NEXT STEP STARTS HERE */
+/* TALKING ABOUT THE NEXT STEP STARTS HERE */
+/* TALKING ABOUT THE NEXT STEP STARTS HERE */
+/* TALKING ABOUT THE NEXT STEP STARTS HERE */
+/* TALKING ABOUT THE NEXT STEP STARTS HERE */
+
+.nextstep {
+  font-size: 40px;
+  color: #65a765;
+
+  margin-top: 80px;
+  margin-left: 480px;
+}
+
+.nextstepexplained {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
 }
 
 /* User Persona + Journey Map */
@@ -1043,16 +2184,210 @@ span {
 .userpersona {
   width: 550px;
   height: auto;
-  margin-top: 80px;
+  margin-top: 30px;
   margin-left: 70px;
 }
+
+.userpersona:hover {
+  border: 2px solid blue;
+}
+
+.userpersonaimage {
+  width: 1000px;
+  height: auto;
+
+  padding-bottom: 8px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+
+.popup5 .overlay {
+  position: fixed;
+
+  top: -10px;
+  left: -20px;
+  right: -20px;
+
+  width: 110vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup5 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 45%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1100px;
+  height: 725px;
+
+  z-index: 2;
+}
+
+.popup5 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup5.active .overlay {
+  display: block;
+}
+
+.popup5.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* JOURNEY MAP FROM THIS POINT */
+/* JOURNEY MAP FROM THIS POINT */
+/* JOURNEY MAP FROM THIS POINT */
 
 .journeymap {
   width: 550px;
   height: auto;
+
   float: right;
-  margin-top: 80px;
-  margin-right: 110px;
+
+  margin-top: -433px;
+  margin-left: 650px;
+  margin-bottom: -20px;
+}
+
+.journeymap:hover {
+  border: 2px solid blue;
+}
+
+.journeymapimage {
+  width: 950px;
+  height: auto;
+
+  padding-bottom: 8px;
+
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+/* POP-UP IMAGE FOR USER PERSONA FROM THIS POINT */
+
+.popup6 .overlay {
+  position: fixed;
+
+  top: -10px;
+  left: -20px;
+  right: -20px;
+
+  width: 110vw;
+  height: 100vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup6 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 50%;
+  left: 45%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1100px;
+  height: 725px;
+
+  z-index: 2;
+}
+
+.popup6 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup6.active .overlay {
+  display: block;
+}
+
+.popup6.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* NEXT-STEP SECTION FINISHES AT THIS POINT */
+/* NEXT-STEP SECTION FINISHES AT THIS POINT */
+/* NEXT-STEP SECTION FINISHES AT THIS POINT */
+
+.nextstep_reflections {
+  font-size: 20px;
+  font-weight: 300;
+  width: 890px;
+
+  margin-top: -90px;
+  margin-left: 170px;
+}
+
+.consideration {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.point3explained {
+  width: 850px;
+
+  margin-left: 40px;
 }
 
 /* DESGIN SECTION BEGINS HERE */
@@ -1061,36 +2396,41 @@ span {
 /* DESGIN SECTION BEGINS HERE */
 /* DESGIN SECTION BEGINS HERE */
 
-.bolddesign {
-  font-weight: 700;
-  font-size: 22px;
+.designsection {
+  text-align: center;
+  color: #65a765;
 
-  margin-top: 150px;
-  margin-left: 370px;
-}
+  font-size: 65px;
+  font-weight: 600;
 
-.bold {
-  font-weight: 700;
-  font-size: 22px;
-
-  margin-left: 370px;
-  margin-top: 20px;
-  margin-bottom: 15px;
-}
-
-.bolddescription {
-  font-size: 22px;
   width: 660px;
 
-  margin-left: 370px;
+  margin-top: 100px;
+  margin-left: 310px;
 }
 
-.spacing {
-  font-size: 22px;
+.designsubtitle {
+  font-size: 25px;
+  font-weight: 600;
 
-  margin-top: 50px;
-  margin-bottom: 70px;
-  margin-left: 370px;
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.designdescription {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
+.roughdraftsketches {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 70px;
+  margin-left: 170px;
 }
 
 /* Rough History Page */
@@ -1102,7 +2442,7 @@ span {
   font-weight: 300;
 
   margin-top: -25px;
-  margin-left: 170px;
+  margin-left: 230px;
 }
 
 .rough-history {
@@ -1113,16 +2453,117 @@ span {
   margin-right: 15px;
 }
 
+.rough-history-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.designreason1 {
+  text-decoration: underline;
+  color: blue;
+
+  font-weight: 300;
+
+  margin-top: -145px;
+  margin-left: 150px;
+}
+
+.designreason1:hover {
+  color: blueviolet;
+}
+
+.designexplained1 {
+  text-align: left;
+
+  font-size: 15px;
+  font-weight: 300;
+
+  margin-top: 35px;
+}
+
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+
+.popup13 .overlay {
+  position: fixed;
+
+  top: 120px;
+  left: 190px;
+  right: -20px;
+
+  width: 23vw;
+  height: 39vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup13 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 47%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 320px;
+  height: 270px;
+
+  z-index: 2;
+}
+
+.popup13 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 10px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup13.active .overlay {
+  display: block;
+}
+
+.popup13.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* POP-UP WINDOW FOR HISTORY PAGE EXPLANATION FINISHED */
+
 .rough-history-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 110px;
-  margin-top: 20px;
+  margin-left: 150px;
+  margin-top: -10px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1130,15 +2571,75 @@ span {
 .rough-history-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  margin-top: -10px;
+  margin-top: -15px;
   width: auto;
   height: auto;
 }
 
-.rough-hist {
-  width: 280px;
-  height: 200px;
-  margin-left: 25px;
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+
+.popup7 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup7 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup7 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup7.active .overlay {
+  display: block;
+}
+
+.popup7.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* Rough Video-Conf Page */
@@ -1148,38 +2649,219 @@ span {
 /* Add some padding inside the card container */
 .rough-vid-con1 {
   font-weight: 300;
-  margin-top: -25px;
   width: max-content;
-  margin-left: 70px;
+
+  position: absolute;
+
+  margin-top: -340px;
+  margin-left: 540px;
 }
 
 .rough-vid-con {
   width: 300px;
   height: 230px;
 
+  margin-left: -5px;
+  margin-right: 5px;
   margin-bottom: 0px;
 }
+
+.rough-vid-con-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.designreason2 {
+  text-decoration: underline;
+  color: blue;
+
+  font-weight: 300;
+
+  position: absolute;
+
+  margin-top: -165px;
+  margin-left: 500px;
+}
+
+.designreason2:hover {
+  color: blueviolet;
+}
+
+.designexplained2 {
+  text-align: left;
+
+  font-size: 15px;
+  font-weight: 300;
+
+  margin-top: 5px;
+}
+
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING HISTORY PAGE */
+
+.popup14 .overlay {
+  position: fixed;
+
+  top: 70px;
+  left: 550px;
+  right: -20px;
+
+  width: 23vw;
+  height: 42vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup14 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 47%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 320px;
+  height: 290px;
+
+  z-index: 2;
+}
+
+.popup14 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 10px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup14.active .overlay {
+  display: block;
+}
+
+.popup14.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* POP-UP WINDOW FOR VIDEO-CONFERENCE EXPLANATION */
+/* POP-UP WINDOW FOR VIDEO-CONFERENCE EXPLANATION */
+/* POP-UP WINDOW FOR VIDEO-CONFERENCE EXPLANATION */
 
 .rough-vid-con-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 50px;
-  margin-top: 20px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
+
+  margin-top: -330px;
+  margin-left: 500px;
+  margin-right: 40px;
+  margin-bottom: 50px;
 }
 
 /* On mouse-over, add a deeper shadow */
 .rough-vid-con-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
   width: auto;
   height: auto;
+
+  border-radius: 15px;
+
+  margin-top: -335px;
+}
+
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+
+.popup8 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup8 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup8 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup8.active .overlay {
+  display: block;
+}
+
+.popup8.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* Rough GlassVU Page */
@@ -1188,10 +2870,12 @@ span {
 
 /* Add some padding inside the card container */
 .rough-glassvu1 {
+  position: absolute;
+
   font-weight: 300;
 
-  margin-top: -25px;
-  margin-left: 100px;
+  margin-top: -380px;
+  margin-left: 920px;
 }
 
 .rough-glassvu {
@@ -1201,26 +2885,202 @@ span {
   margin-bottom: 10px;
 }
 
+.rough-glassvu-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
+.designreason3 {
+  text-decoration: underline;
+  color: blue;
+
+  font-weight: 300;
+
+  position: absolute;
+
+  margin-top: -225px;
+  margin-left: 850px;
+}
+
+.designreason3:hover {
+  color: blueviolet;
+}
+
+.designexplained3 {
+  text-align: left;
+
+  font-size: 15px;
+  font-weight: 300;
+
+  margin-top: 5px;
+}
+
+/* POP-UP WINDOW SECTION FOR REASONING GLASSVU PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING GLASSVU PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING GLASSVU PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING GLASSVU PAGE */
+/* POP-UP WINDOW SECTION FOR REASONING GLASSVU PAGE */
+
+.popup15 .overlay {
+  position: fixed;
+
+  top: 60px;
+  left: 900px;
+  right: -20px;
+
+  width: 23vw;
+  height: 44vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup15 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 47%;
+  left: 47%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 320px;
+  height: 300px;
+
+  z-index: 2;
+}
+
+.popup15 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 10px;
+  top: 8px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup15.active .overlay {
+  display: block;
+}
+
+.popup15.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
+/* CONTINUE ON MAKING THE CARD */
+/* CONTINUE ON MAKING THE CARD */
+/* CONTINUE ON MAKING THE CARD */
+/* CONTINUE ON MAKING THE CARD */
+/* CONTINUE ON MAKING THE CARD */
+
 .rough-glassvu-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 50px;
-  margin-top: 20px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
+
+  margin-top: -370px;
+  margin-left: 850px;
 }
 
 /* On mouse-over, add a deeper shadow */
 .rough-glassvu-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
   width: auto;
   height: auto;
+
+  border-radius: 15px;
+
+  margin-top: -375px;
+}
+
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR LOW-FIDELITY HISTORY PAGE FROM THIS POINT */
+
+.popup9 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup9 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup9 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup9.active .overlay {
+  display: block;
+}
+
+.popup9.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 /* Keep the track of styles */
@@ -1229,17 +3089,19 @@ span {
 /* Keep the track of styles */
 /* Keep the track of styles */
 
-.bold2 {
-  font-weight: 700;
+.styletrack {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-left: 170px;
+}
+
+.styletrackdescription {
   font-size: 20px;
+  font-weight: 300;
+  width: 920px;
 
-  margin-left: 350px;
-  margin-top: 70px;
-  margin-bottom: 15px;
-}
-
-.bolddescription2 {
-  margin-left: 350px;
+  margin-left: 170px;
 }
 
 /* Design Guide for Logos */
@@ -1250,7 +3112,7 @@ span {
 .design-guide1 {
   font-weight: 300;
 
-  margin-left: 320px;
+  margin-left: 80px;
 }
 
 .design-guide {
@@ -1264,20 +3126,12 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 250px;
+  margin-left: 150px;
+  margin-right: 90px;
   margin-top: 20px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.design-guide-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1289,7 +3143,7 @@ span {
 .design-buttons1 {
   font-weight: 300;
 
-  margin-left: 230px;
+  margin-left: -40px;
 }
 
 .design-buttons {
@@ -1303,21 +3157,12 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 150px;
+  margin-left: 60px;
+  margin-right: 120px;
   margin-top: 20px;
-  margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.design-buttons-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1330,11 +3175,11 @@ span {
   font-weight: 300;
 
   margin-top: 50px;
-  margin-left: 580px;
+  margin-left: 120px;
 }
 
 .colour {
-  width: 900px;
+  width: 770px;
   height: 600px;
   margin-left: 10px;
 }
@@ -1344,21 +3189,13 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 200px;
+
   margin-top: 20px;
+  margin-left: 150px;
   margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.colour-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1376,16 +3213,17 @@ span {
 .remotevu1 {
   font-weight: 300;
 
-  margin-left: 210px;
+  margin-left: 240px;
 }
 
-.high-fi {
+.highfidelity {
   text-align: center;
   font-weight: 600;
-  font-size: 22px;
+  font-size: 25px;
 
-  margin-top: 150px;
+  margin-top: 70px;
   margin-bottom: 30px;
+  margin-left: 60px;
 }
 
 .high-fi-remotevu {
@@ -1395,18 +3233,27 @@ span {
   margin-left: 10px;
 }
 
+.high-fi-remotevu-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
 .high-fi-remotevu-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 140px;
-  margin-top: 20px;
-  margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
+
+  margin-top: -10px;
+  margin-left: 140px;
+  margin-right: 60px;
 }
 
 /* On mouse-over, add a deeper shadow */
@@ -1424,6 +3271,72 @@ span {
   margin-left: 45px;
 }
 
+/* POP-UP IMAGE FOR HIGH-FIDELITY REMOTEVU PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY REMOTEVU PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY REMOTEVU PAGE FROM THIS POINT */
+
+.popup10 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup10 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup10 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup10.active .overlay {
+  display: block;
+}
+
+.popup10.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
 /* High-Fi Video-Conference */
 /* High-Fi Video-Conference */
 /* High-Fi Video-Conference */
@@ -1432,7 +3345,10 @@ span {
 .high-vid-con1 {
   font-weight: 300;
 
-  margin-left: 60px;
+  position: absolute;
+
+  margin-top: -310px;
+  margin-left: 560px;
 }
 
 .high-fi-vid-con {
@@ -1442,17 +3358,26 @@ span {
   margin-left: 10px;
 }
 
+.high-fi-vid-con-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
 .high-fi-vid-con-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-top: 20px;
+
+  margin-top: -300px;
+  margin-left: 490px;
   margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1460,9 +3385,11 @@ span {
 .high-fi-vid-con-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  margin-top: -10px;
+
   width: auto;
   height: auto;
+
+  margin-top: -305px;
 }
 
 .high-fi-vidcon {
@@ -1471,15 +3398,84 @@ span {
   margin-left: 45px;
 }
 
+/* POP-UP IMAGE FOR HIGH-FIDELITY VIDEO-CONFERENCE PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY VIDEO-CONFERENCE PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY VIDEO-CONFERENCE PAGE FROM THIS POINT */
+
+.popup11 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup11 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup11 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup11.active .overlay {
+  display: block;
+}
+
+.popup11.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
+}
+
 /* REDESIGNED High-Fi Login */
 /* REDESIGNED High-Fi Login */
 /* REDESIGNED High-Fi Login */
 
 /* Add some padding inside the card container */
 .high-fi-login1 {
+  position: absolute;
+
   font-weight: 300;
 
-  margin-left: 100px;
+  margin-top: -350px;
+  margin-left: 940px;
 }
 
 .high-fi-login {
@@ -1489,27 +3485,104 @@ span {
   margin-left: 10px;
 }
 
+.high-fi-login-image {
+  width: 1180px;
+  height: 640px;
+
+  margin-bottom: 5px;
+  margin-right: 15px;
+}
+
 .high-fi-login-card {
   /* Add shadows to create the "card" effect */
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 10px;
-  margin-top: 20px;
-  margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
+
+  margin-top: -340px;
+  margin-left: 830px;
+  margin-right: 60px;
 }
 
 /* On mouse-over, add a deeper shadow */
 .high-fi-login-card:hover {
   box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
   border-radius: 15px;
-  margin-top: -10px;
+
   width: auto;
   height: auto;
+
+  margin-top: -345px;
+}
+
+/* POP-UP IMAGE FOR HIGH-FIDELITY LOGIN PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY LOGIN PAGE FROM THIS POINT */
+/* POP-UP IMAGE FOR HIGH-FIDELITY LOGIN PAGE FROM THIS POINT */
+
+.popup12 .overlay {
+  position: fixed;
+
+  top: 50px;
+  left: 160px;
+  right: -20px;
+
+  width: 83vw;
+  height: 90vh;
+
+  background-color: rgba(0, 0, 0, 0.7);
+
+  z-index: 1;
+
+  display: none;
+}
+
+.popup12 .content {
+  position: absolute;
+  text-align: center;
+
+  top: 49%;
+  left: 49%;
+
+  transform: translate(-50%, -50%) scale(0);
+  background: #fff;
+
+  width: 1300px;
+  height: 660px;
+
+  z-index: 2;
+}
+
+.popup12 .close-btn {
+  text-align: center;
+
+  font-size: 25px;
+  font-weight: 600;
+
+  background: #222;
+  color: #fff;
+
+  position: absolute;
+  border-radius: 50%;
+
+  right: 20px;
+  top: 20px;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+}
+
+.popup12.active .overlay {
+  display: block;
+}
+
+.popup12.active .content {
+  transition: all 300ms ease-in-out;
+  transform: translate(-50%, -50%) scale(1);
 }
 
 .tabledistance {
@@ -1520,9 +3593,7 @@ span {
 /* FINAL */
 
 .final {
-  text-align: center;
-  font-size: 50px;
-  margin-top: 200px;
+  font-size: 65px;
 
   background-color: black;
   background-image: linear-gradient(
@@ -1539,48 +3610,59 @@ span {
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
+  margin-top: 50px;
+  margin-left: 545px;
 }
 
-.finaltag {
-  text-align: right;
-  font-size: 22px;
+.finalpartdescription {
   font-weight: 600;
+  font-size: 25px;
 
-  margin-top: 100px;
-  margin-right: 120px;
-  margin-bottom: 0px;
+  margin-top: 70px;
+  margin-left: 580px;
+  margin-bottom: 30px;
 }
 
 .prototype {
-  text-align: center;
+  color: #65a765;
   font-size: 22px;
 
   margin-top: 50px;
+  margin-left: 300px;
   margin-bottom: 30px;
+}
 
-  color: #65a765;
+.prototypelist {
+  position: absolute;
+
+  width: 290px;
+  height: auto;
+
+  margin-left: 290px;
 }
 
 .imgsize {
-  width: 850px;
-  height: 550px;
+  width: 380px;
+  height: auto;
 
   margin-top: 20px;
-  margin-left: 220px;
+  margin-left: 680px;
+  margin-bottom: 100px;
 }
 
 /* FINAL PRODUCT VIDEO TEASER */
 /* FINAL PRODUCT VIDEO TEASER */
 /* FINAL PRODUCT VIDEO TEASER */
 
-.finalteaser {
-  text-align: center;
+.finalproductteaser {
+  color: #65a765;
+
   font-size: 22px;
 
-  margin-top: 70px;
+  margin-top: 50px;
+  margin-left: 520px;
   margin-bottom: 30px;
-
-  color: #65a765;
 }
 
 .video {
@@ -1601,6 +3683,8 @@ span {
   position: relative;
   display: inline-block;
   font-size: 0;
+
+  margin-left: 70px;
 }
 .container > .controls {
   position: absolute;
@@ -1613,8 +3697,25 @@ span {
 }
 
 .teaservid {
-  margin-left: 80px;
+  width: 100%;
+
+  margin-left: 0px;
   margin-top: 30px;
+}
+
+/* Talking about the smartphone version in the section */
+/* Talking about the smartphone version in the section */
+/* Talking about the smartphone version in the section */
+/* Talking about the smartphone version in the section */
+/* Talking about the smartphone version in the section */
+
+.smartphonefinalproduct {
+  font-weight: 600;
+  font-size: 25px;
+
+  margin-top: 70px;
+  margin-left: 580px;
+  margin-bottom: 30px;
 }
 
 /* High-Fidelity Mobile Version (Landscape) */
@@ -1625,7 +3726,7 @@ span {
 .mobile1 {
   font-weight: 300;
 
-  margin-left: 220px;
+  margin-left: 40px;
 }
 
 .mobilefidelity {
@@ -1644,12 +3745,13 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 200px;
+
   margin-top: 20px;
-  margin-right: 60px;
+  margin-left: 150px;
+  margin-right: 110px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1670,7 +3772,7 @@ span {
 .mobileland1 {
   font-weight: 300;
 
-  margin-left: 130px;
+  margin-left: -90px;
 }
 
 .mobileland {
@@ -1685,12 +3787,13 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 10px;
+
   margin-top: 20px;
+  margin-left: -60px;
   margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1703,6 +3806,27 @@ span {
   height: auto;
 }
 
+.conClusion {
+  font-size: 55px;
+  color: #65a765;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-bottom: 30px;
+  margin-left: 480px;
+}
+
+.conClusion_description {
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
+}
+
 /* OUTCOME: User Testing Feedback */
 /* OUTCOME: User Testing Feedback */
 /* OUTCOME: User Testing Feedback */
@@ -1710,31 +3834,24 @@ span {
 /* OUTCOME: User Testing Feedback */
 
 .usertesting {
-  text-align: center;
-  font-size: 50px;
-
-  margin-top: 200px;
-
-  background-color: black;
-  background-image: linear-gradient(
-    -45deg,
-    rgba(0, 133, 255, 1),
-    rgba(51, 255, 0, 1)
-  );
-  background-size: 100%;
-  background-repeat: none;
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
+  font-size: 45px;
+  color: #65a765;
 
   margin-block-start: 0px;
   margin-block-end: 0px;
   margin-inline-start: 0px;
   margin-inline-end: 0px;
+
+  margin-left: 370px;
+  margin-bottom: 30px;
 }
 
 .usertestingdesc {
-  margin-top: 50px;
-  margin-left: 80px;
+  font-size: 20px;
+  font-weight: 300;
+  width: 920px;
+
+  margin-left: 170px;
 }
 
 .feedbackending {
@@ -1746,9 +3863,11 @@ span {
 
 /* Add some padding inside the card container */
 .settingnav1 {
+  font-size: 20px;
   font-weight: 300;
+  text-align: left;
 
-  margin-left: 50px;
+  margin-left: 140px;
 }
 
 .setting-nav {
@@ -1763,22 +3882,14 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 90px;
-  margin-top: 20px;
-  margin-right: 90px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
+  background-color: #f5f5f5;
   height: auto;
-}
 
-/* On mouse-over, add a deeper shadow */
-.setting-nav-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -10px;
-  width: auto;
-  height: auto;
+  margin-top: 20px;
+  margin-left: 150px;
+  margin-right: 90px;
 }
 
 /* FEEDBACK: USER TESTING FOR HISTORY */
@@ -1787,9 +3898,12 @@ span {
 
 /* Add some padding inside the card container */
 .historypage1 {
+  text-align: left;
+
+  font-size: 20px;
   font-weight: 300;
 
-  margin-left: 20px;
+  margin-left: -40px;
 }
 
 .historypage {
@@ -1804,21 +3918,13 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 10px;
+
+  margin-left: -30px;
   margin-top: 20px;
   margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.historypage-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
@@ -1837,29 +3943,24 @@ span {
   box-shadow: 0 4px 8px 0 rgba(190, 190, 190, 1);
   transition: 0.3s;
   border-radius: 15px;
-  margin-left: 10px;
+
+  margin-left: -16px;
   margin-top: 20px;
   margin-right: 60px;
 
   padding-bottom: 10px;
-  background-color: #f5f1ee;
-  height: auto;
-}
-
-/* On mouse-over, add a deeper shadow */
-.remotevupage-card:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-  border-radius: 15px;
-  margin-top: -20px;
-  width: auto;
+  background-color: #f5f5f5;
   height: auto;
 }
 
 /* Add some padding inside the card container */
 .remotevupage1 {
+  text-align: left;
+
+  font-size: 20px;
   font-weight: 300;
 
-  margin-left: 3px;
+  margin-left: -30px;
 }
 
 /* FEEDBACK: USER TESTING FOR REMOTEVU */
@@ -1868,23 +3969,36 @@ span {
 
 .successratio {
   text-align: left;
+
+  font-size: 20px;
+  font-weight: 300;
   width: fit-content;
-  margin-left: 100px;
+
   background-color: none;
+
+  margin-left: 150px;
 }
 
 .successratio1 {
   text-align: left;
+  font-size: 20px;
+  font-weight: 300;
   width: fit-content;
-  margin-left: 25px;
+
   background-color: none;
+
+  margin-left: -30px;
 }
 
 .successratio2 {
   text-align: left;
+  font-size: 20px;
+  font-weight: 300;
   width: fit-content;
-  margin-left: 25px;
+
   background-color: none;
+
+  margin-left: -10px;
 }
 
 /* THE REFLECTION SECTION */
@@ -1894,8 +4008,7 @@ span {
 /* THE REFLECTION SECTION */
 
 .reflection {
-  text-align: center;
-  font-size: 50px;
+  font-size: 55px;
 
   background-color: black;
   background-image: linear-gradient(
@@ -1913,15 +4026,68 @@ span {
   margin-inline-start: 0px;
   margin-inline-end: 0px;
 
-  margin-bottom: 30px;
+  margin-left: 460px;
 }
 
 .reflect {
-  font-size: 22px;
-  width: 660px;
+  font-size: 20px;
+  width: 920px;
 
-  margin-left: 370px;
-  margin-bottom: 100px;
+  margin-top: 50px;
+  margin-left: 170px;
+}
+
+/* THIS IS WHERE THE FINAL NOTE COMES */
+/* THIS IS WHERE THE FINAL NOTE COMES */
+/* THIS IS WHERE THE FINAL NOTE COMES */
+/* THIS IS WHERE THE FINAL NOTE COMES */
+/* THIS IS WHERE THE FINAL NOTE COMES */
+
+.finalnote {
+  font-size: 55px;
+
+  background-color: black;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(0, 133, 255, 1),
+    rgba(51, 255, 0, 1)
+  );
+  background-size: 100%;
+  background-repeat: none;
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+
+  margin-block-start: 0px;
+  margin-block-end: 0px;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+
+  margin-top: 100px;
+  margin-left: 390px;
+}
+
+.finalnote_points {
+  font-size: 25px;
+  font-weight: 600;
+
+  margin-top: 70px;
+  margin-left: 170px;
+}
+
+.finalnote_point_detail {
+  font-size: 20px;
+  width: 920px;
+
+  margin-top: 20px;
+  margin-left: 170px;
+}
+
+.finalnote_point_detail1 {
+  font-size: 20px;
+  width: 920px;
+
+  margin-left: 170px;
+  margin-bottom: 250px;
 }
 
 /* LAST BUTTON OF THE PAGE */
@@ -1933,37 +4099,42 @@ span {
 .home {
   box-sizing: border-box;
   border-radius: 15px;
+
+  font-size: 20px;
   background-color: #feca6e;
 
   padding: 2px;
 
-  margin-left: 370px;
+  margin-top: 35px;
+  margin-left: 170px;
 }
 
 .centerbtn {
   box-sizing: border-box;
   border-radius: 15px;
+
   background-color: #feca6e;
+  font-size: 20px;
 
   padding: 2px;
 
-  margin-left: 160px;
+  margin-left: 250px;
 }
 
 .contacts {
   box-sizing: border-box;
   border-radius: 15px;
+
   background-color: #feca6e;
+  font-size: 20px;
 
   padding: 2px;
 
-  margin-left: 130px;
+  margin-left: 250px;
 }
 
 button:hover {
   background-color: #f88379;
-
-  margin-top: -20px;
 }
 
 button:click::after {
@@ -1982,34 +4153,44 @@ button:click::after {
 /* THE CONCLUSION SECTION */
 
 .ending {
-  width: 1500px;
+  width: 1900px;
   height: 220px;
 
   position: absolute;
 
-  margin-left: -100px;
-  margin-top: -55px;
+  margin-left: -90px;
+  margin-top: -50px;
   opacity: 0.8;
   z-index: 1000px;
 }
 
 .name {
   font-weight: 700;
-  text-align: center;
   position: relative;
 
-  margin-top: 130px;
+  margin-top: 100px;
+  margin-left: 530px;
 }
 
 .names {
-  position: relative;
-  text-align: center;
   font-weight: 700;
+  position: relative;
+
+  margin-left: 523px;
+}
+
+.name_s {
+  font-weight: 700;
+  position: relative;
+
+  margin-left: 480px;
 }
 
 .name-s {
-  position: relative;
-  text-align: center;
-  font-weight: 700;
   color: blue;
+  font-weight: 700;
+
+  position: relative;
+
+  margin-left: 390px;
 }
