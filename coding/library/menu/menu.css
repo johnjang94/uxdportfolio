@@ -1,3 +1,8 @@
+.menu-box {
+  background-color: #fafafa;
+  width: 387px;
+}
+
 .menu_picture {
   width: 377.51px;
   height: 314px;
@@ -13,7 +18,7 @@
 
   width: 91.88px;
 
-  margin-left: 142.81px;
+  margin-left: 165px;
 }
 
 .menu_description {
@@ -29,10 +34,44 @@
   margin-left: 31px;
 }
 
-.menu-box {
-  width: 385px;
+.description-box {
+  width: 387px;
   height: 135px;
 
-  background-color: #fafafa;
-  border-top: 3px solid #000000;
+  border-top: 1px solid #000000;
+}
+
+.research-btn {
+  margin-left: 300px;
+}
+
+.design-btn {
+  margin-top: -463px;
+  margin-left: 754px;
+}
+
+.design {
+  margin-left: 170px;
+}
+
+.usability-btn {
+  margin-top: 50px;
+  margin-left: 300px;
+}
+
+.usability {
+  width: 500px;
+
+  margin-left: 145px;
+}
+
+.reflection-btn {
+  margin-top: -463px;
+  margin-left: 754px;
+}
+
+.reflection {
+  width: 500px;
+
+  margin-left: 160px;
 }

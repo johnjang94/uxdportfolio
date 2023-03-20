@@ -15,6 +15,16 @@ body {
   height: 550px;
 }
 
+div::after {
+  display: inline-block;
+  content: "\00d7";
+
+  position: absolute;
+
+  margin-top: -710px;
+  margin-left: 920px;
+}
+
 .subtitle {
   margin-left: 100px;
 }
@@ -23,4 +33,21 @@ body {
   display: none;
 
   width: 900px;
+}
+
+.overview2 {
+  position: absolute;
+
+  width: 328px;
+  height: 217px;
+
+  margin-top: -250px;
+  margin-left: 400px;
+  margin-bottom: 10px;
+}
+
+.subtitle2 {
+  position: absolute;
+  margin-top: -20px;
+  margin-left: 500px;
 }
