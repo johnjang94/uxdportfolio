@@ -10,11 +10,6 @@ body {
   margin-bottom: 10px;
 }
 
-#overview1.expanded {
-  width: 900px;
-  height: 550px;
-}
-
 .close-btn::after {
   position: absolute;
   content: "\00d7";

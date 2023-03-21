@@ -5,12 +5,13 @@ function expandImage() {
   let name = document.getElementById("glassvu");
   let name2 = document.getElementById("reportvu");
   let box = document.getElementById("image-container");
-  // close (X) button was not added here because the (x) sign does not appear no matter how many times you toggle
 
   box.style.backgroundColor = "#FAFAFA";
   box.style.width = "950px";
   box.style.height = "650px";
   box.style.marginLeft = "100px";
+  box.style.transition = "ease-in-out";
+  box.style.transitionDuration = "1s";
   name.style.display = "none";
   name2.style.display = "none";
   img.classList.add("expanded");
@@ -18,6 +19,8 @@ function expandImage() {
   img.style.marginLeft = "25px";
   img.style.width = "900px";
   img.style.height = "550px";
+  img.style.transition = "ease-in-out";
+  img.style.transitionDuration = "1s";
   img2.style.display = "none";
   message.style.display = "block";
   message.style.marginLeft = "25px";
@@ -38,9 +41,13 @@ function collapseImage() {
   img.style.height = "217px";
   img.style.marginLeft = "-100px";
   img.style.marginTop = "0px";
+  img.style.transition = "ease-in-out";
+  img.style.transitionDuration = "1s";
   img2.style.display = "inline";
   img2.style.marginTop = "-650px";
   box.style.backgroundColor = "#FFFFFF";
+  box.style.transition = "ease-in-out";
+  box.style.transitionDuration = "1s";
   closeBtn.style.marginTop = "-330px";
   closeBtn.style.marginLeft = "500px";
   message.style.display = "none";
