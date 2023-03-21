@@ -10,13 +10,13 @@
     <h1>Project Overview</h1>
     <p>From how the original looked like...</p>
     <script src="overview.js"></script>
-    <div id="image-container" class="close-btn">
+    <div id="image-container">
       <img
         src="../overview/images/original_glassvu.jpg"
         alt="Original GlassVU picture"
         class="overview1"
         id="overview1"
-        onclick="expandImage()"
+        onclick="toggleImage()"
       />
       <br />
       <span id="glassvu" class="subtitle">Original GlassVU</span>
@@ -28,6 +28,7 @@
         same concept. You can access your account using your Desktop PC or Mac,
         your tablet or iPad, and any of your smartphone devices.
       </p>
+      <div id="close-btn" class="close-btn" onclick="toggleImage()"></div>
     </div>
     <img
       src="../overview/images/original_reportvu.jpg"

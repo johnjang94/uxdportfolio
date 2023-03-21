@@ -15,14 +15,14 @@ body {
   height: 550px;
 }
 
-div::after {
-  display: inline-block;
+.close-btn::after {
+  position: absolute;
   content: "\00d7";
 
-  position: absolute;
+  cursor: pointer;
 
-  margin-top: -710px;
-  margin-left: 920px;
+  margin-top: -700px;
+  margin-left: 930px;
 }
 
 .subtitle {
