@@ -64,5 +64,11 @@ function toggleImage() {
     expandImage();
   } else {
     collapseImage();
+    setTimeout(function collapseImage() {
+      img2.style.display = "inline";
+      img2.style.zIndex = "-1";
+      name2.style.display = "inline";
+      name2.style.zIndex = "-1";
+    }, 1000);
   }
 }
