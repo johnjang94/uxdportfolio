@@ -5,10 +5,16 @@ function expandImage() {
   let name = document.getElementById("glassvu");
   let name2 = document.getElementById("reportvu");
   let box = document.getElementById("image-container");
+  let closeBtn = document.getElementById("close-btn");
 
+  // Hide message before expanding the image
+  message.style.display = "none";
+  closeBtn.style.display = "none";
+
+  // Show everything else before expanding the image
   box.style.backgroundColor = "#FAFAFA";
   box.style.width = "950px";
-  box.style.height = "650px";
+  box.style.height = "720px";
   box.style.marginLeft = "100px";
   box.style.transition = "ease-in-out";
   box.style.transitionDuration = "1s";
@@ -21,10 +27,20 @@ function expandImage() {
   img.style.height = "550px";
   img.style.transition = "ease-in-out";
   img.style.transitionDuration = "1s";
+
+  // Hide overview2 completely
   img2.style.display = "none";
-  message.style.display = "block";
-  message.style.marginLeft = "25px";
-  message.style.marginBottom = "20px";
+
+  setTimeout(function () {
+    message.style.display = "block";
+    message.style.marginLeft = "25px";
+    message.style.marginBottom = "20px";
+
+    // Show close button after expanding the image
+    closeBtn.style.display = "block";
+    closeBtn.style.marginTop = "-700px";
+    closeBtn.style.marginLeft = "600px";
+  }, 1000);
 }
 
 function collapseImage() {
@@ -36,6 +52,14 @@ function collapseImage() {
   let name = document.getElementById("glassvu");
   let name2 = document.getElementById("reportvu");
 
+  // hide overview2 and reportvu before collapsing the image
+  img2.style.display = "none";
+  name2.style.display = "none";
+  closeBtn.style.display = "none";
+
+  // hide glassvu before collapsing the image
+  name.style.display = "none";
+
   img.classList.remove("expanded");
   img.style.width = "328px";
   img.style.height = "217px";
@@ -43,18 +67,21 @@ function collapseImage() {
   img.style.marginTop = "0px";
   img.style.transition = "ease-in-out";
   img.style.transitionDuration = "1s";
-  img2.style.display = "inline";
-  img2.style.marginTop = "-650px";
   box.style.backgroundColor = "#FFFFFF";
   box.style.transition = "ease-in-out";
   box.style.transitionDuration = "1s";
-  closeBtn.style.marginTop = "-330px";
-  closeBtn.style.marginLeft = "500px";
   message.style.display = "none";
-  name.style.display = "inline";
   name.style.marginLeft = "3px";
-  name2.style.display = "inline";
-  name2.style.marginTop = "-420px";
+
+  // Show overview2 and reportvu after collapsing the image
+  setTimeout(function () {
+    img2.style.display = "inline";
+    img2.style.marginTop = "-720px";
+    name2.style.display = "inline";
+    name2.style.marginTop = "-490px";
+    // Show glassvu after collapsing the image
+    name.style.display = "inline";
+  }, 1000);
 }
 
 function toggleImage() {
@@ -64,11 +91,5 @@ function toggleImage() {
     expandImage();
   } else {
     collapseImage();
-    setTimeout(function collapseImage() {
-      img2.style.display = "inline";
-      img2.style.zIndex = "-1";
-      name2.style.display = "inline";
-      name2.style.zIndex = "-1";
-    }, 1000);
   }
 }

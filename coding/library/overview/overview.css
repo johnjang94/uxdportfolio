@@ -10,14 +10,16 @@ body {
   margin-bottom: 10px;
 }
 
+.close-btn {
+  display: none;
+}
+
 .close-btn::after {
   position: absolute;
   content: "\00d7";
 
   cursor: pointer;
-
-  margin-top: -700px;
-  margin-left: 930px;
+  margin-left: 330px;
 }
 
 .subtitle {
