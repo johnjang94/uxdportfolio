@@ -1,4 +1,5 @@
 @import url(../css/animation/animation.css);
+@import url(../../coding/library/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css);
 
 body {
   font-size: 15px;
@@ -37,7 +38,7 @@ body {
   margin-left: 680px;
 }
 
-span {
+.designer {
   font-family: "Times New Roman", Times, serif;
 }
 
@@ -56,6 +57,11 @@ span {
   height: 28px;
 }
 
+.indexbtn:hover {
+  background-color: #b9edf9;
+  cursor: pointer;
+}
+
 .aboutme {
   margin-left: 680px;
 }
@@ -69,6 +75,80 @@ span {
 
   margin-top: 97px;
   margin-left: 371px;
+}
+
+/* About Me Section */
+
+.aboutbox {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 590px;
+  height: 277px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+.abouttag {
+  font-size: 15px;
+  font-weight: 700;
+
+  margin-top: 24px;
+  margin-left: 20px;
+}
+
+.moreinfo {
+  position: absolute;
+
+  width: fit-content;
+
+  margin-top: -40px;
+  margin-left: 490px;
+}
+
+.aboutword {
+  width: 581px;
+  height: 277px;
+
+  margin-top: 23px;
+  margin-left: 22px;
+}
+
+.picture {
+  position: absolute;
+
+  width: 158px;
+  height: 113px;
+
+  margin-top: -240px;
+  margin-left: 20px;
+}
+
+.travel {
+  margin-left: 215px;
+}
+
+.fact {
+  margin-left: 410px;
+}
+
+.picturetag {
+  position: absolute;
+
+  margin-top: -120px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+}
+
+.traveltag {
+  margin-left: 270px;
+}
+
+.facttag {
+  margin-left: 465px;
 }
 
 /* GENERAL NAVIGATION
