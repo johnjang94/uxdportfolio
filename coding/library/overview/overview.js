@@ -67,6 +67,7 @@ function collapseImage() {
   img.style.marginTop = "0px";
   img.style.transition = "ease-in-out";
   img.style.transitionDuration = "1s";
+
   box.style.backgroundColor = "#FFFFFF";
   box.style.transition = "ease-in-out";
   box.style.transitionDuration = "1s";

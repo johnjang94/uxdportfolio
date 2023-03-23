@@ -1,5 +1,5 @@
 @import url(../css/animation/animation.css);
-@import url(../../coding/library/bootstrap-5.3.0-alpha1-dist/css/bootstrap-grid.css);
+@import url(../css/responsive_design/responsive.css);
 
 body {
   font-size: 15px;
@@ -20,34 +20,56 @@ body {
   position: absolute;
 }
 
+/* Main content begins here */
 .profile {
+  margin-top: 150px;
+  margin-left: 350px;
+
   width: 276.71px;
   height: 288px;
 
   border-radius: 138.35px;
-
-  margin-top: 198px;
-  margin-left: 349px;
 }
 
 .name {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
   font-size: 24px;
+  font-weight: 400;
   line-height: 29.05px;
 
-  margin-top: -220px;
-  margin-left: 680px;
+  margin-top: -240px;
+  margin-left: 350px;
 }
 
 .designer {
   font-family: "Times New Roman", Times, serif;
+
+  margin-top: 88px;
+  margin-left: -170px;
 }
 
 .opportunities {
-  margin-left: 680px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+
+  margin-top: -100px;
+  margin-left: 310px;
+}
+
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .indexbtn {
   text-align: center;
+  text-decoration: none;
+  color: black;
 
   background-color: rgba(217, 217, 217, 0.13);
   border: 1px solid grey;
@@ -55,6 +77,8 @@ body {
 
   width: 122px;
   height: 28px;
+
+  padding-top: 7px;
 }
 
 .indexbtn:hover {
@@ -63,27 +87,29 @@ body {
 }
 
 .aboutme {
-  margin-left: 680px;
+  margin-top: -20px;
+  margin-left: 340px;
 }
 
 .contact {
-  margin-left: 20px;
+  margin-top: -20px;
+  margin-left: -50px;
 }
 
 .brief {
   width: 538px;
 
-  margin-top: 97px;
+  margin-top: -20px;
   margin-left: 371px;
 }
 
 /* About Me Section */
 
-.aboutbox {
+.subtitlebox {
   border-radius: 40px;
   background-color: rgba(185, 237, 249, 0.2);
 
-  width: 590px;
+  width: 600px;
   height: 277px;
 
   padding-top: 1px;
@@ -92,7 +118,7 @@ body {
   margin-left: 349px;
 }
 
-.abouttag {
+.subtitletag {
   font-size: 15px;
   font-weight: 700;
 
@@ -103,13 +129,15 @@ body {
 .moreinfo {
   position: absolute;
 
-  width: fit-content;
+  width: 100px;
 
-  margin-top: -40px;
-  margin-left: 490px;
+  padding-bottom: 10px;
+
+  margin-top: -35px;
+  margin-left: 470px;
 }
 
-.aboutword {
+.subtitleword {
   width: 581px;
   height: 277px;
 
@@ -151,459 +179,267 @@ body {
   margin-left: 465px;
 }
 
-/* GENERAL NAVIGATION
-
-* {
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 10px;
+.figma {
+  width: auto;
+  margin-left: 60px;
 }
 
-img.logo {
-  border: 0px solid #ddd;
-  border-radius: 4px;
-  padding: 20px;
-  width: 50px;
-  height: 50px;
-  float: left;
+.Figma {
+  margin-left: 95px;
 }
 
-.topnav {
-  font-size: 22px;
-
-  position: absolute;
+.notion {
+  width: 145px;
+  height: auto;
 
   padding-top: 30px;
 
-  margin-left: 1000px;
-  margin-right: -100px;
+  margin-left: 410px;
 }
 
-a.active {
-  text-decoration: none;
-  color: #95f9e3;
+/* CSS for publisher */
+.HTML {
+  width: auto;
+  margin-left: 40px;
 }
 
-a.btn {
-  text-decoration: none;
-  color: black;
+.HTML5 {
+  margin-left: 70px;
 }
 
-.btn:hover {
-  color: aquamarine;
+.CSS3 {
+  width: auto;
+  margin-left: 250px;
 }
 
-.btn:click::after {
-  color: #b87fdb;
+.javascript {
+  width: auto;
+  margin-left: 430px;
 }
 
-body {
-  font-family: Roboto, sans-serif;
+.javascript1 {
+  margin-left: 450px;
+}
+
+/* Version control CSS */
+.subtitlebox_extended {
+  height: 500px;
+}
+
+.versioncontrol {
+  margin-top: -80px;
+}
+
+.git {
+  width: auto;
+  margin-left: 50px;
+}
+
+.gitspan {
+  margin-left: 100px;
+}
+
+/* Past UX Projects */
+.televuproject {
+  text-align: center;
 }
 
 .background {
-  width: 800px;
-  height: 800px;
-  margin-top: -120px;
-  margin-left: -170px;
+  height: fit-content;
 }
 
-/* BACKGROUND INTRO IMAGE ANIMATION */
-/* BACKGROUND INTRO IMAGE ANIMATION */
-/* BACKGROUND INTRO IMAGE ANIMATION */
-/* BACKGROUND INTRO IMAGE ANIMATION */
-/* BACKGROUND INTRO IMAGE ANIMATION */
+/* Past UX Project swiper */
+.swiper {
+  position: relative;
+  overflow: hidden;
 
-/* .fade-in-image {
-  animation: fadeIn 3s;
+  width: 450px;
+  height: 269px;
+
+  margin-top: -260px;
+  margin-left: 80px;
 }
 
-@keyframes fadeIn {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+.swiper img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 269px;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 0.5s;
 }
 
-#slider1 {
-  width: auto;
-  height: auto;
-  transform: translateX(-80%);
-  -webkit-transform: translateX(-80%);
+.swiper img:first-child {
+  opacity: 1;
 }
 
-.slide-in {
-  animation: slide-in 1.5s forwards;
-  -webkit-animation: slide-in 1.5s forwards;
-}
-
-.slide-out {
-  animation: slide-out 1.5s forwards;
-  -webkit-animation: slide-out 1.5s forwards;
-}
-
-@keyframes slide-in {
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@-webkit-keyframes slide-in {
-  100% {
-    -webkit-transform: translateX(0%);
-  }
-}
-
-@keyframes slide-out {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(-80%);
-  }
-}
-
-@-webkit-keyframes slide-out {
-  0% {
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    -webkit-transform: translateX(-80%);
-  }
-} */
-
-/* HELLO INTRO DESCRIPTION */
-/* HELLO INTRO DESCRIPTION */
-/* HELLO INTRO DESCRIPTION */
-/* HELLO INTRO DESCRIPTION */
-/* HELLO INTRO DESCRIPTION */
-
-/* #slider2 {
-  width: auto;
-  height: auto;
-  transform: translateX(100%);
-  -webkit-transform: translateX(100%);
-}
-
-.slide-in2 {
-  animation: slide-in 1.5s forwards;
-  -webkit-animation: slide-in 1.5s forwards;
-}
-
-.slide-out2 {
-  animation: slide-out 1.5s forwards;
-  -webkit-animation: slide-out 1.5s forwards;
-}
-
-@keyframes slide-in2 {
-  100% {
-    transform: translateX(0%);
-  }
-}
-
-@-webkit-keyframes slide-in2 {
-  100% {
-    -webkit-transform: translateX(0%);
-  }
-}
-
-@keyframes slide-out2 {
-  0% {
-    transform: translateX(0%);
-  }
-  100% {
-    transform: translateX(100%);
-  }
-}
-
-@-webkit-keyframes slide-out2 {
-  0% {
-    -webkit-transform: translateX(0%);
-  }
-  100% {
-    -webkit-transform: translateX(100%);
-  }
-} */
-
-/* Section for Profile Picture */
-/* Section for Profile Picture */
-/* Section for Profile Picture */
-/* Section for Profile Picture */
-/* Section for Profile Picture */
-
-/* .profileimage {
-  border-radius: 300px;
-
-  margin-top: 170px;
-  margin-left: 100px;
-} */
-
-/* INTRODUCTION OF THE SECTION */
-/* INTRODUCTION OF THE SECTION */
-/* INTRODUCTION OF THE SECTION */
-/* INTRODUCTION OF THE SECTION */
-/* INTRODUCTION OF THE SECTION */
-
-/* .introduction {
-  float: right;
-  font-size: 30px;
-
-  margin-top: -350px;
-  margin-right: 300px;
-}
-
-.position {
-  font-family: "Times New Roman", Times, serif;
-
-  margin-left: -1px;
-}
-
-.subtitle {
-  float: right;
-  margin-top: -200px;
-  margin-right: 375px;
-} */
-
-/* SERVICE SECTION ON THE PAGE */
-/* SERVICE SECTION ON THE PAGE */
-/* SERVICE SECTION ON THE PAGE */
-/* SERVICE SECTION ON THE PAGE */
-/* SERVICE SECTION ON THE PAGE */
-
-/* .service {
-  font-size: 22px;
-  font-weight: 300;
-  width: 820px;
-
-  margin-left: 320px;
-  margin-top: 100px;
-}
-
-.spanservice {
-  font-weight: 600;
-
-  margin: -1px;
-} */
-
-/* SERVICE SECTION ANIMATION ON THE PAGE */
-/* SERVICE SECTION ANIMATION ON THE PAGE */
-/* SERVICE SECTION ANIMATION ON THE PAGE */
-/* SERVICE SECTION ANIMATION ON THE PAGE */
-/* SERVICE SECTION ANIMATION ON THE PAGE */
-
-/* #slider3 {
-  transform: translateY(100%);
-  -webkit-transform: translateY(100%);
-}
-
-.slide-in3 {
-  animation: slide-in 1.5s forwards;
-  -webkit-animation: slide-in 1.5s forwards;
-}
-
-.slide-out3 {
-  animation: slide-out 1.5s forwards;
-  -webkit-animation: slide-out 1.5s forwards;
-}
-
-@keyframes slide-in3 {
-  100% {
-    transform: translateY(0%);
-  }
-}
-
-@-webkit-keyframes slide-in3 {
-  100% {
-    -webkit-transform: translateY(0%);
-  }
-}
-
-@keyframes slide-out3 {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(100%);
-  }
-}
-
-@-webkit-keyframes slide-out3 {
-  0% {
-    -webkit-transform: translateY(0%);
-  }
-  100% {
-    -webkit-transform: translateY(100%);
-  }
-} */
-
-/* MAIN DESIGN INTRODUCTION ON THE PAGE */
-/* MAIN DESIGN INTRODUCTION ON THE PAGE */
-/* MAIN DESIGN INTRODUCTION ON THE PAGE */
-/* MAIN DESIGN INTRODUCTION ON THE PAGE */
-/* MAIN DESIGN INTRODUCTION ON THE PAGE */
-
-/* .design {
-  margin-top: 80px;
-  margin-left: 650px;
-  margin-bottom: 30px;
-}
-
-.televu {
-  width: 320px;
-  height: auto;
-
-  float: left;
-  border: 1px solid #d3d3d3;
-  border-radius: 20px;
-
-  margin-left: 330px;
-}
-
-.televu:hover {
-  box-shadow: 0 5px 5px 5px rgba(0, 0, 0, 0.2);
-
-  margin-top: -20px;
-}
-
-.description3 {
-  margin-top: -230px;
-  margin-left: 670px;
-}
-
-.projecttelevuheading {
-  text-decoration: none;
-  color: black;
-
-  margin-left: -1px;
-}
-
-.projecttelevuheading:hover {
-  color: blue;
-}
-
-.projecttelevuheading.btn:click::after {
-  color: purple;
-}
-
-.descriptiondetail {
-  margin-top: -170px;
-  margin-left: 690px;
-}
-
-.descriptiondetail1 {
-  margin-left: 690px;
-}
-
-.descriptiondetail2 {
-  margin-left: 690px;
-  margin-bottom: 100px;
-} */
-
-/* LAST BUTTON OF THE PAGE */
-/* LAST BUTTON OF THE PAGE */
-/* LAST BUTTON OF THE PAGE */
-/* LAST BUTTON OF THE PAGE */
-/* LAST BUTTON OF THE PAGE */
-
-/* .home {
-  box-sizing: border-box;
-  border-radius: 15px;
-
-  font-size: 20px;
-  background-color: #feca6e;
-
-  padding: 2px;
-
-  margin-top: 50px;
-  margin-left: 340px;
-}
-
-.about {
-  box-sizing: border-box;
-  border-radius: 15px;
-
-  background-color: #feca6e;
-  font-size: 20px;
-
-  padding: 2px;
-
-  margin-top: 50px;
-  margin-left: 215px;
-}
-
-.contacts {
-  box-sizing: border-box;
-  border-radius: 15px;
-
-  background-color: #feca6e;
-  font-size: 20px;
-
-  padding: 2px;
-
-  margin-top: 50px;
-  margin-left: 200px;
+button {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
 }
 
 button:hover {
-  background-color: #f88379;
-
-  margin-top: -20px;
+  background-color: aquamarine;
+  border-radius: 200px;
 }
 
-button:click::after {
-  background-color: #ff4040;
+.prev {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -130px;
+  margin-left: 30px;
+}
+
+.next {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -130px;
+  margin-left: 550px;
+}
+
+ul {
+  font-weight: bold;
+
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+.top {
+  margin-top: 10px;
+}
+
+li {
+  font-weight: 300;
+
+  margin-top: 5px;
+}
+
+.bottom {
+  margin-bottom: 20px;
+}
+
+/* TeleVU Case link */
+
+.file {
+  margin-left: 30px;
 }
 
 .link {
-  text-decoration: none;
-  color: black;
-} */
-
-/* THE PERSONAL WEBSITE ENDING SECTION */
-/* THE PERSONAL WEBSITE ENDING SECTION */
-/* THE PERSONAL WEBSITE ENDING SECTION */
-/* THE PERSONAL WEBSITE ENDING SECTION */
-/* THE PERSONAL WEBSITE ENDING SECTION */
-
-/* .ending {
-  width: 1700px;
-  height: 220px;
-
   position: absolute;
 
-  margin-left: -70px;
-  margin-top: -55px;
-  opacity: 0.8;
-  z-index: 1000px;
-}
-
-.name {
-  font-weight: 700;
-  position: relative;
-
-  margin-top: 130px;
-  margin-left: 660px;
-}
-
-.names {
-  font-weight: 700;
-  position: relative;
-  margin-left: 653px;
-}
-
-.name_s {
-  font-weight: 700;
-  position: relative;
-
-  margin-left: 610px;
-}
-
-.name-s {
   color: blue;
-  font-weight: 700;
-  position: relative;
+  cursor: pointer;
 
-  margin-left: 510px;
-} */
+  margin-top: -34px;
+  margin-left: 200px;
+}
+
+.link:hover {
+  color: peru;
+}
+
+/* Past UX Projects - Tugo */
+.tugoproject {
+  text-align: center;
+
+  margin-top: 70px;
+}
+
+.slider {
+  position: relative;
+  overflow: hidden;
+
+  width: 450px;
+  height: 269px;
+
+  margin-top: -260px;
+  margin-left: 80px;
+}
+
+/* Tugo */
+.slider img.tugo {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 269px;
+  object-fit: fill;
+  opacity: 0;
+  transition: opacity 0.5s;
+}
+
+.slider img.tugo:first-child {
+  opacity: 1;
+}
+button {
+  border: none;
+  border-color: transparent;
+  background-color: transparent;
+}
+
+button:hover {
+  background-color: aquamarine;
+  border-radius: 200px;
+}
+
+.prev2 {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -150px;
+  margin-left: 30px;
+}
+
+.next2 {
+  position: absolute;
+  cursor: pointer;
+
+  margin-top: -150px;
+  margin-left: 550px;
+}
+
+.journey {
+  margin-bottom: 100px;
+}
+
+.subtitlebox_extended2 {
+  height: 150px;
+}
+
+/* Ending */
+.ending {
+  position: absolute;
+  width: 1600px;
+  height: 196px;
+
+  opacity: 70%;
+
+  z-index: -1;
+
+  margin-top: 50px;
+  margin-left: -100px;
+}
+
+.word {
+  position: absolute;
+  font-size: 15px;
+  color: black;
+
+  text-align: center;
+
+  margin-top: 90px;
+  margin-left: 500px;
+}
+
+p {
+  margin: 10px;
+}
+
+.copyright {
+  color: blue;
+}
