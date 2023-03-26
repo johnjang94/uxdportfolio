@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case Study - TeleVU Innovations Incorporation</title>
-    <link href="televu/css/televu.css" rel="stylesheet" />
+    <link href="televu/css/televu_design.css" rel="stylesheet" />
   </head>
   <body>
     <img
@@ -23,25 +23,49 @@
     <h1>Project Overview</h1>
     <!-- XXXXXXXXXX ORIGINAL LINE XXXXXXXXXXXXX -->
     <p class="original">From how the original looks like...</p>
+    <!-- <script src="../portfolio/televu/js/televu.js"></script> -->
     <img
       src="../portfolio/televu/images/introduction/project_overview/original_glassvu.jpg"
       alt="Original GlassVU"
-      class="overview overview1"
+      class="overview"
       id="overview1"
+      onclick="toggleImage()"
     />
+    <!-- <div id="image-container1"> -->
+    <p id="message1" class="message">
+      &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
+      This is the menu where you can check all your registered devices under
+      your account. For example, you can register your portable laptop, your
+      smartphone or your tablet / iPad on your Netflix account. This is the same
+      concept. You can access your account using your Desktop PC or Mac, your
+      tablet or iPad, and any of your smartphone devices.
+    </p>
+    <!-- <div id="close-btn1" class="close-btn1" onclick="toggleImage()"></div>
+    </div> -->
     <img
       src="../portfolio/televu/images/introduction/project_overview/original_reportvu.jpg"
       alt="Original ReportVU"
       class="overview overview2 reportVU"
+      id="overview2"
     />
+    <!-- <div id="image-container2"> -->
+    <p id="message2" class="message">
+      &lt;&lt; Original ReportVU &gt;&gt;<br /><br />
+      This is the menu where you can check all the previous video-calls that
+      were made in your department. You can see how many calls were made during
+      a week or a month as well as who called who. The history of you calling
+      others or receiving the call will be also recorded in this call log.
+    </p>
+    <!-- <div id="close-btn2" class="close-btn2" onclick="collapseImage2()"></div>
+    </div> -->
     <img
       src="../portfolio/televu/images/introduction/project_overview/original_video.jpg"
       alt="Original Video"
       class="overview3 vid"
     />
     <br />
-    <span class="tag" id="name">Original GlassVU</span>
-    <span class="reportTag">Original ReportVU</span>
+    <span class="tag" id="name1">Original GlassVU</span>
+    <span class="reportTag" id="name2">Original ReportVU</span>
     <span class="vidTag">Original Video</span>
     <!-- XXXXXXXXXX REVISED LINE XXXXXXXXXXXXX -->
     <p class="revised">...to how everything changed</p>

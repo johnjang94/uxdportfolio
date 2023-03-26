@@ -1,0 +1,225 @@
+/* ================ DOCUMENT SETTING ================= */
+* {
+  margin-top: 25px;
+  margin-left: 25px;
+  margin-right: 15px;
+}
+
+body {
+  font-size: 15px;
+  font-weight: 400;
+
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.logo {
+  width: 47.61px;
+  height: auto;
+}
+
+h1 {
+  position: relative;
+
+  text-align: center;
+  font-size: 64px;
+  font-weight: 400;
+
+  margin-top: 161px;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-left: 251px;
+}
+
+p,
+li {
+  width: 808px;
+
+  margin-left: 251px;
+}
+
+li {
+  margin-top: 10px;
+}
+
+span {
+  margin-left: 251px;
+}
+
+/* ================ NAVIGATION SETTING ================= */
+.navigation {
+  margin-left: 0px;
+}
+
+.floating-menu {
+  font-family: sans-serif;
+  background: #add8e6;
+  border-radius: 15px;
+
+  width: 100px;
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
+  margin-top: 100px;
+  margin-left: -142px;
+}
+
+.floating-menu:hover {
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
+  opacity: 1;
+  transition-duration: 1s ease-in-and-out;
+
+  margin-left: -50px;
+}
+
+.floating-menu a,
+.floating-menu h3 {
+  color: black;
+  display: block;
+  font-size: 0.9em;
+  width: 140px;
+
+  padding-block: 3px;
+  margin: 0px;
+}
+
+.linksize {
+  width: fit-content;
+
+  padding-left: 30px;
+}
+
+.linksize:hover {
+  color: white;
+}
+
+/* ================ RESEARCH INTRODUCTION SETTING ================= */
+.difficulties {
+  margin-top: 75px;
+}
+
+/* SETTING FOR PICTURES */
+.assumption {
+  width: 470px;
+  height: auto;
+
+  margin-top: 15px;
+  margin-left: 251px;
+}
+
+/* ================ THE FLIP CARD ================= */
+/* FLIP CARD CONTAINER */
+.flip-card1 {
+  font-size: 20px;
+
+  background-color: transparent;
+
+  width: 370px;
+  height: 240px;
+
+  position: absolute;
+
+  margin-top: -268px;
+  margin-left: 710px;
+
+  perspective: 1000px;
+}
+
+/* This container is needed to position the front and back side */
+.flip-card-inner1 {
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+  transition: transform 0.8s;
+  transform-style: preserve-3d;
+
+  margin-top: 0px;
+  margin-left: 0px;
+}
+
+/* Do an horizontal flip when you move the mouse over the flip box container */
+.flip-card1:hover .flip-card-inner1 {
+  transform: rotateY(180deg);
+}
+
+/* Position the front and back side */
+.flip-card-front1,
+.flip-card-back1 {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+
+  border-radius: 20px;
+  -webkit-backface-visibility: hidden; /* Safari */
+  backface-visibility: hidden;
+}
+
+/* Style the front side (fallback if image is missing) */
+.flip-card-front1 {
+  background-color: #f5f5f5;
+  color: black;
+}
+
+/* Style the back side */
+.flip-card-back1 {
+  background-color: #f5f5f5;
+  color: white;
+  transform: rotateY(180deg);
+
+  width: 400px;
+
+  margin-left: -55px;
+}
+
+.content {
+  width: 370px;
+  color: black;
+
+  padding: 10px;
+
+  margin-left: 0px;
+}
+
+/* INDIVIDUAL SETTING */
+.about {
+  text-align: center;
+  margin-top: 110px;
+  margin-left: -220px;
+}
+
+/* ================ AFTER RESEARCH ================= */
+.after {
+  width: 340px;
+
+  margin-top: -190px;
+  margin-left: 740px;
+  margin-bottom: 50px;
+}
+
+.mirotag {
+  margin-top: 50px;
+}
+
+.miro {
+  width: 800px;
+  height: auto;
+
+  margin-top: -10px;
+  margin-left: 251px;
+}
+
+.map {
+  width: 340px;
+  height: auto;
+
+  margin-top: -20px;
+  margin-left: 251px;
+}

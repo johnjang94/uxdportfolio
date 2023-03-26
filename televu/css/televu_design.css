@@ -113,7 +113,7 @@ li {
   padding-left: 125px;
 }
 
-/* Project Overview - pictures */
+/* Project Overview - pictures (applied to every picture) */
 .overview {
   width: 328px;
   height: 217px;
@@ -136,7 +136,19 @@ li {
   margin-bottom: 10px;
 }
 
-/* Project Overview - span tags */
+/* Project Overview - pictures (applied to individual picture) */
+/* .overview2 {
+  position: absolute;
+
+  width: 328px;
+  height: 217px;
+
+  margin-top: -250px;
+  margin-left: 500px;
+  margin-bottom: 10px;
+} */
+
+/* Project Overview - span tags (applied to every span tag for description */
 .tag {
   margin-left: 220px;
 }
@@ -149,6 +161,7 @@ li {
   margin-left: 240px;
 }
 
+/* Project Overview - span tags (applied to individual span tag for description */
 .reportRedesign {
   margin-left: 200px;
 }
@@ -163,52 +176,25 @@ li {
 }
 
 /* ================ EXPANSION EFFECTS FOR PROJECT OVERVIEW PICTURES ================= */
-/* .overview1 {
-  width: 328px;
-  height: 217px;
-
-  margin-left: 119px;
-  margin-bottom: 10px;
-}
-
-.close-btn {
-  display: none;
-}
-
-.close-btn::after {
-  position: absolute;
-  content: "\00d7";
-
-  cursor: pointer;
-  margin-left: 330px;
-}
-
-.subtitle {
-  margin-left: 220px;
-}
-
+/* ================ UNIFIED CSS ================= */
 .message {
   display: none;
 
   width: 900px;
 }
 
-.overview2 {
-  position: absolute;
-
-  width: 328px;
-  height: 217px;
-
-  margin-top: -250px;
-  margin-left: 500px;
-  margin-bottom: 10px;
+/* ================ INDIVIDUAL CHARACTERISTICS ================= */
+.close-btn1 {
+  display: none;
 }
 
-.subtitle2 {
+.close-btn1::after {
   position: absolute;
-  margin-top: -20px;
-  margin-left: 610px;
-} */
+  content: "\00d7";
+
+  cursor: pointer;
+  margin-left: 330px;
+}
 
 /* ================ DESIGN CATEGORY & TOOLS ================= */
 table {
