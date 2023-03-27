@@ -369,3 +369,34 @@ button:hover {
   margin-top: 50px;
   margin-left: 10px;
 }
+
+/* ================= USER PERSONAL & USER JOURNEY MAP ================== */
+/* User Persona */
+.persona {
+  width: 400px;
+  height: auto;
+
+  margin-top: 82px;
+  margin-left: 251px;
+}
+
+.personaTag {
+  margin-left: 410px;
+}
+
+.journeymap {
+  position: absolute;
+
+  width: 400px;
+  height: auto;
+
+  margin-top: -285px;
+  margin-left: 150px;
+}
+
+.journeymapTag {
+  position: absolute;
+
+  margin-top: -15px;
+  margin-left: 790px;
+}
