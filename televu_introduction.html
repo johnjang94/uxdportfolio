@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Case Study - TeleVU Innovations Incorporation</title>
-    <link href="televu/css/televu_design.css" rel="stylesheet" />
+    <link href="televu/css/televu_introduction.css" rel="stylesheet" />
   </head>
   <body>
     <img
@@ -23,15 +23,13 @@
     <h1>Project Overview</h1>
     <!-- XXXXXXXXXX ORIGINAL LINE XXXXXXXXXXXXX -->
     <p class="original">From how the original looks like...</p>
-    <!-- <script src="../portfolio/televu/js/televu.js"></script> -->
+    <!-- <div id="image-container1"> -->
     <img
       src="../uxdportfolio/televu/images/introduction/project_overview/original_glassvu.jpg"
       alt="Original GlassVU"
       class="overview"
       id="overview1"
-      onclick="toggleImage()"
     />
-    <!-- <div id="image-container1"> -->
     <p id="message1" class="message">
       &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
       This is the menu where you can check all your registered devices under
@@ -40,7 +38,11 @@
       concept. You can access your account using your Desktop PC or Mac, your
       tablet or iPad, and any of your smartphone devices.
     </p>
-    <!-- <div id="close-btn1" class="close-btn1" onclick="toggleImage()"></div>
+    <!-- <div
+        id="close-btn1"
+        class="close-btn1"
+        onclick="toggleImage('overview1')"
+      ></div>
     </div> -->
     <img
       src="../uxdportfolio/televu/images/introduction/project_overview/original_reportvu.jpg"
@@ -64,7 +66,6 @@
       class="overview3 vid"
     />
     <br />
-    <span class="tag" id="name1">Original GlassVU</span>
     <span class="reportTag" id="name2">Original ReportVU</span>
     <span class="vidTag">Original Video</span>
     <!-- XXXXXXXXXX REVISED LINE XXXXXXXXXXXXX -->
@@ -85,6 +86,7 @@
       class="overview vid"
     />
     <br />
+    <span class="tag" id="name1">Original GlassVU</span>
     <span class="tag">Redesigned GlassVU</span>
     <span class="reportRedesign">Redesigned ReportVU</span>
     <span class="redesignTag">Redesigned Video</span>
@@ -318,5 +320,6 @@
       alt="Ending Banner"
       class="banner"
     />
+    <!-- <script src="../uxdportfolio/televu/js/televu.js"></script> -->
   </body>
 </html>

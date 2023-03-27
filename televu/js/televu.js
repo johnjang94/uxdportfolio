@@ -22,7 +22,7 @@ let message3 = document.getElementById("message3");
 let box3 = document.getElementById("image-container3");
 let closeBtn3 = document.getElementById("close-btn3");
 
-// =============== FUNCTIONS TO BE DONE =======================
+// =============== FUNCTIONS TO BE DONE ============================
 // =============== GlassVU PICTURE EXPANSION =======================
 function expandImage1() {
   // FIRST PICTURE (Original GlassVU) = HIDE THE DETAIL, THE CLOSE (X) BUTTON, AND THE NAME TAG
@@ -116,11 +116,15 @@ function collapseImage1() {
   }, 1000);
 }
 
-function toggleImage() {
+// TOGGLE FIRST PICTURE ON CLICK
+function toggleImage(id) {
+  console.log("id", id);
+  let image1 = document.getElementById(id);
+
   if (!image1.classList.contains("expanded")) {
-    expandImage1();
+    expandImage1(id);
   } else {
-    collapseImage1();
+    collapseImage1(id);
   }
 }
 
