@@ -107,7 +107,7 @@ function toggleImage(id) {
   }
 }
 
-// ===== // SECOND ATTEMPT FOR USER JOURNEY MAP
+// ===== // SECOND ATTEMPT FOR USER JOURNEY MAP (NOTE BELOW)
 // //  User Persona
 // let persona = document.getElementById("persona");
 // let tag = document.getElementById("personaTag");

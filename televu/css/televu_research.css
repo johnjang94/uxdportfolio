@@ -35,6 +35,16 @@ h3 {
   margin-left: 251px;
 }
 
+h4 {
+  position: absolute;
+
+  font-size: 20px;
+  font-weight: 700;
+
+  margin-top: 30px;
+  margin-left: 150px;
+}
+
 p,
 li {
   width: 808px;
@@ -399,4 +409,106 @@ button:hover {
 
   margin-top: -15px;
   margin-left: 790px;
+}
+
+/* ================ PORTFOLIO MENU SETTING ================= */
+.picture1 {
+  width: 377.51px;
+  height: 314px;
+
+  margin-top: 50px;
+  margin-left: 227px;
+}
+
+.box {
+  width: 377.51px;
+  height: 150px;
+
+  color: black;
+  background-color: #fafafa;
+
+  margin-top: -16px;
+  margin-left: 251px;
+}
+
+.box:hover {
+  background-color: #add8e6;
+  transition: ease-in-out;
+  transition-duration: 0.5s;
+}
+
+.word {
+  position: absolute;
+
+  width: 316px;
+
+  margin-top: 70px;
+  margin-left: 40px;
+}
+
+.link {
+  color: black;
+}
+
+/* <<<<<<<<<<<< INTRODUCTION CARD SETTING >>>>>>>>>>>>>> */
+.introduction {
+  margin-left: 130px;
+}
+
+/* <<<<<<<<<<<< DESIGN CARD SETTING >>>>>>>>>>>>>> */
+.move1 {
+  position: absolute;
+
+  margin-top: -450px;
+  margin-left: 640px;
+}
+
+.box1 {
+  margin-top: -170px;
+  margin-left: 665px;
+}
+
+/* <<<<<<<<<<<< DESIGN CARD SETTING >>>>>>>>>>>>>> */
+.testing {
+  margin-left: 120px;
+}
+
+/* ================ END BANNER SETTING ================= */
+.banner {
+  width: 1470px;
+  height: 200px;
+
+  margin-top: 50px;
+  margin-left: -80px;
+  margin-bottom: -30px;
+}
+
+.ending {
+  position: absolute;
+
+  margin-top: 90px;
+  margin-left: 603px;
+  margin-bottom: 30px;
+}
+
+.endin {
+  position: absolute;
+
+  margin-top: 120px;
+  margin-left: 595px;
+}
+
+.end {
+  position: absolute;
+
+  margin-top: 150px;
+  margin-left: 560px;
+}
+
+.End {
+  position: absolute;
+  color: blue;
+
+  margin-top: 180px;
+  margin-left: 480px;
 }
