@@ -107,7 +107,7 @@ function toggleImage(id) {
   }
 }
 
-// ===== // SECOND ATTEMPT FOR USER JOURNEY MAP (NOTE BELOW)
+// ===== // SECOND ATTEMPT FOR USER JOURNEY MAP (REFERENCE NOTE BELOW)
 // //  User Persona
 // let persona = document.getElementById("persona");
 // let tag = document.getElementById("personaTag");
@@ -117,15 +117,19 @@ function toggleImage(id) {
 // let tag2 = document.getElementById("tag2");
 
 function expandImage2() {
-  // USER JOURNEY MAP PICTURE EXPAND FEATURE
+  // USER JOURNEY MAP PICTURE EXPAND TIME
   journey.classList.add("expanded");
   journey.style.transition = "ease-in-out";
   journey.style.transitionDuration = "1s";
-
+  // USER JOURNEY MAP PICTURE EXPAND FEATURE
   journey.style.width = "800px";
   journey.style.height = "auto";
   journey.style.marginLeft = "251px";
   journey.style.marginTop = "82px";
+  // USER JOURNEY MAP PICTURE EXPAND POSITION
+  journey.style.position = "relative";
+  // USER JOURNEY MAP ANIMATION START POINT
+  journey.style.transformOrigin = "right";
 
   // USER JOURNEY MAP PICTURE TAG TO DISAPPEAR
   tag2.style.display = "none";
@@ -136,19 +140,26 @@ function expandImage2() {
 }
 
 function collapseImage2() {
-  // USER JOURNEY MAP PICTURE TO SHRINK
+  // USER JOURNEY MAP PICTURE SHRINK TIME
   journey.classList.remove("expanded");
   journey.style.transition = "ease-in-out";
   journey.style.transitionDuration = "1s";
 
-  // USER JOURNEY MAP PICTURE TO SHRINK
+  // USER JOURNEY MAP PICTURE SHRINK FEATURE
   journey.style.width = "400px";
   journey.style.height = "auto";
-  journey.style.position = "absolute";
   journey.style.marginLeft = "150px";
   journey.style.marginTop = "-285px";
 
   setTimeout(function () {
+    // USER JOURNEY MAP PICTURE SHRINK POSITION
+    journey.style.position = "absolute";
+    // USER JOURNEY MAP PICTURE STATE AFTER THE SHRINK ANIMATION
+    journey.style.width = "400px";
+    journey.style.height = "auto";
+    journey.style.marginLeft = "150px";
+    journey.style.marginTop = "-285px";
+
     // USER JOURNEY MAP TAG TO APPEAR AGAIN
     tag2.style.display = "inline";
     tag2.style.marginTop = "-15px";
