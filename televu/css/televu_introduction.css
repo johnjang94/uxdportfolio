@@ -55,7 +55,6 @@ li {
 }
 
 .floating-menu {
-  font-family: sans-serif;
   background: #add8e6;
   border-radius: 15px;
 
@@ -79,7 +78,7 @@ li {
 }
 
 .floating-menu a,
-.floating-menu h3 {
+.floating-menu p {
   color: black;
   display: block;
   font-size: 0.9em;
@@ -87,6 +86,10 @@ li {
 
   padding-block: 3px;
   margin: 0px;
+}
+
+.floating-menu p {
+  margin-left: 10px;
 }
 
 .linksize {

@@ -4,8 +4,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Case Study - TeleVU Innovations Incorporation</title>
+    <title>TeleVU - Case Study Introduction</title>
     <link href="televu/css/televu_introduction.css" rel="stylesheet" />
+    <link href="televu/css/televu_popup.css" rel="stylesheet" />
   </head>
   <body>
     <img
@@ -23,32 +24,35 @@
     <h1>Project Overview</h1>
     <!-- XXXXXXXXXX ORIGINAL LINE XXXXXXXXXXXXX -->
     <p class="original">From how the original looks like...</p>
-    <!-- <div id="image-container1"> -->
     <img
       src="../uxdportfolio/televu/images/introduction/project_overview/original_glassvu.jpg"
       alt="Original GlassVU"
-      class="overview"
-      id="overview1"
+      class="overview modal-button"
+      id="image1"
+      href="#myModal1"
     />
-    <p id="message1" class="message">
-      &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
-      This is the menu where you can check all your registered devices under
-      your account. For example, you can register your portable laptop, your
-      smartphone or your tablet / iPad on your Netflix account. This is the same
-      concept. You can access your account using your Desktop PC or Mac, your
-      tablet or iPad, and any of your smartphone devices.
-    </p>
-    <!-- <div
-        id="close-btn1"
-        class="close-btn1"
-        onclick="toggleImage('overview1')"
-      ></div>
-    </div> -->
+    <div id="myModal1" class="modal">
+      <!-- Modal content -->
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <div class="modal-body">
+          <p id="message1" class="message">
+            &lt;&lt; Original GlassVU &gt;&gt;<br /><br />
+            This is the menu where you can check all your registered devices
+            under your account. For example, you can register your portable
+            laptop, your smartphone or your tablet / iPad on your Netflix
+            account. This is the same concept. You can access your account using
+            your Desktop PC or Mac, your tablet or iPad, and any of your
+            smartphone devices.
+          </p>
+        </div>
+      </div>
+    </div>
     <img
       src="../uxdportfolio/televu/images/introduction/project_overview/original_reportvu.jpg"
       alt="Original ReportVU"
       class="overview overview2 reportVU"
-      id="overview2"
+      id="image2"
     />
     <!-- <div id="image-container2"> -->
     <p id="message2" class="message">
@@ -64,10 +68,12 @@
       src="../uxdportfolio/televu/images/introduction/project_overview/original_video.jpg"
       alt="Original Video"
       class="overview3 vid"
+      id="image3"
     />
     <br />
+    <span class="tag" id="name1">Original GlassVU</span>
     <span class="reportTag" id="name2">Original ReportVU</span>
-    <span class="vidTag">Original Video</span>
+    <span class="vidTag" id="name3">Original Video</span>
     <!-- XXXXXXXXXX REVISED LINE XXXXXXXXXXXXX -->
     <p class="revised">...to how everything changed</p>
     <img
@@ -86,7 +92,7 @@
       class="overview vid"
     />
     <br />
-    <span class="tag" id="name1">Original GlassVU</span>
+
     <span class="tag">Redesigned GlassVU</span>
     <span class="reportRedesign">Redesigned ReportVU</span>
     <span class="redesignTag">Redesigned Video</span>
@@ -320,6 +326,7 @@
       alt="Ending Banner"
       class="banner"
     />
-    <!-- <script src="../uxdportfolio/televu/js/televu.js"></script> -->
+    <!-- <script src="../uxdportfolio/televu/js/televu_introduction.js"></script> -->
+    <script src="../uxdportfolio/televu/js/televu_introduction2.js"></script>
   </body>
 </html>
