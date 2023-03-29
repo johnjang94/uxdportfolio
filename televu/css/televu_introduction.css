@@ -292,6 +292,9 @@ td {
   border-radius: 0px 0px 10px 0px;
 }
 /* ================ PORTFOLIO MENU SETTING ================= */
+a {
+  color: black;
+}
 /* ================ RESEARCH CARD SETTING ================= */
 .research {
   width: 377.51px;
@@ -299,10 +302,6 @@ td {
 
   margin-top: 131px;
   margin-left: 251px;
-}
-
-.research:hover {
-  border: #9addfb 1px solid;
 }
 
 .picture {
@@ -319,6 +318,11 @@ td {
   background-color: #fafafa;
 
   margin-top: -16px;
+}
+
+.box:hover {
+  background-color: #9addfb;
+  transition: 0.5s ease-in-out;
 }
 
 .word {

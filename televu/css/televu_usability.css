@@ -169,7 +169,7 @@ a {
 
 .box:hover {
   background-color: #9addfb;
-  transition: 1s ease-in-out;
+  transition: 0.5s ease-in-out;
 }
 
 .word {

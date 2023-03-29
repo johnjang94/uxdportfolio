@@ -388,6 +388,12 @@ button:hover {
 
   margin-top: 82px;
   margin-left: 251px;
+
+  cursor: pointer;
+}
+
+.persona:hover {
+  border: #9addfb 2px solid outset;
 }
 
 .personaTag {
@@ -403,6 +409,12 @@ button:hover {
 
   margin-top: -285px;
   margin-left: 150px;
+
+  cursor: pointer;
+}
+
+.journeymap:hover {
+  border: #9addfb 2px solid outset;
 }
 
 .journeymapTag {
@@ -433,7 +445,7 @@ button:hover {
 }
 
 .box:hover {
-  background-color: #add8e6;
+  background-color: #9addfb;
   transition: ease-in-out;
   transition-duration: 0.5s;
 }

@@ -226,7 +226,7 @@ a {
 }
 
 .box:hover {
-  background-color: #add8e6;
+  background-color: #9addfb;
   transition: ease-in-out;
   transition-duration: 0.5s;
 }
