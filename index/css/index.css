@@ -1,6 +1,7 @@
 @import url(../css/animation/animation.css);
 @import url(../css/responsive_design/responsive.css);
 
+/* =========== FOR THE ENTIRE DOCUMENT ========== */
 body {
   font-size: 15px;
   font-weight: 400;
@@ -20,7 +21,7 @@ body {
   position: absolute;
 }
 
-/* Main content begins here */
+/* ============ GREETINGS =========== */
 .profile {
   margin-top: 150px;
   margin-left: 350px;
@@ -86,6 +87,11 @@ body {
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+}
+
 .aboutme {
   margin-top: -20px;
   margin-left: 340px;
@@ -103,14 +109,13 @@ body {
   margin-left: 371px;
 }
 
-/* About Me Section */
-
+/* ============= ABOUT ME =========== */
 .subtitlebox {
   border-radius: 40px;
   background-color: rgba(185, 237, 249, 0.2);
 
   width: 600px;
-  height: 277px;
+  height: 300px;
 
   padding-top: 1px;
 
@@ -197,7 +202,7 @@ body {
   margin-left: 410px;
 }
 
-/* CSS for publisher */
+/* ============ PUBLISHER TOOLS ============= */
 .HTML {
   width: auto;
   margin-left: 40px;
@@ -239,16 +244,16 @@ body {
   margin-left: 100px;
 }
 
-/* Past UX Projects */
+/* ============ PAST UX PROJECTS ============= */
 .televuproject {
   text-align: center;
 }
 
 .background {
-  height: fit-content;
+  height: 1580px;
 }
 
-/* Past UX Project swiper */
+/* <<<<<<<<<<<< THE SWIPER FEATURE >>>>>>>>>>>> */
 .swiper {
   position: relative;
   overflow: hidden;
@@ -315,6 +320,7 @@ ul {
 
 li {
   font-weight: 300;
+  width: 540px;
 
   margin-top: 5px;
 }
@@ -323,7 +329,7 @@ li {
   margin-bottom: 20px;
 }
 
-/* TeleVU Case link */
+/* <<<<<<<<<< TELEVU CASE STUDY >>>>>>>>>> */
 
 .file {
   margin-left: 30px;
@@ -343,7 +349,7 @@ li {
   color: peru;
 }
 
-/* Past UX Projects - Tugo */
+/* <<<<<<<<<<<<< TUGO CASE STUDY >>>>>>>>>>>> */
 .tugoproject {
   text-align: center;
 
@@ -361,7 +367,7 @@ li {
   margin-left: 80px;
 }
 
-/* Tugo */
+/* <<<<<<<<<<< TUGO IMAGES SLIDER >>>>>>>>>>> */
 .slider img.tugo {
   position: absolute;
   top: 0;
@@ -411,7 +417,69 @@ button:hover {
   height: 150px;
 }
 
-/* Ending */
+/* ============= FRONT-END PROJECTS SERIES 1 ============= */
+.subtitlebox_extended3 {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 600px;
+  height: 1900px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+.menu {
+  width: 560px;
+  height: auto;
+
+  border-radius: 40px;
+
+  margin-left: 20px;
+  margin-top: -260px;
+}
+
+.webpage {
+  margin-top: 20px;
+}
+
+.subtitleword2 {
+  width: 581px;
+  height: 277px;
+
+  margin-top: 40px;
+  margin-left: 22px;
+}
+
+.menu2 {
+  position: absolute;
+
+  width: 560px;
+  height: auto;
+
+  border-radius: 40px;
+
+  margin-top: -260px;
+  margin-left: 20px;
+}
+
+/* ============= FRONT-END PROJECTS SERIES 2 ============= */
+.subtitlebox_extended4 {
+  border-radius: 40px;
+  background-color: rgba(185, 237, 249, 0.2);
+
+  width: 600px;
+  height: 500px;
+
+  padding-top: 1px;
+
+  margin-top: 12px;
+  margin-left: 349px;
+}
+
+/* ============= ENDING BANNER ============= */
 .ending {
   position: absolute;
   width: 1600px;
