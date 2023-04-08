@@ -471,12 +471,22 @@ button:hover {
   background-color: rgba(185, 237, 249, 0.2);
 
   width: 600px;
-  height: 500px;
+  height: 620px;
 
   padding-top: 1px;
 
   margin-top: 12px;
   margin-left: 349px;
+}
+
+.game {
+  position: absolute;
+  margin-top: -250px;
+}
+
+.game2 {
+  position: absolute;
+  margin-top: -220px;
 }
 
 /* ============= ENDING BANNER ============= */
