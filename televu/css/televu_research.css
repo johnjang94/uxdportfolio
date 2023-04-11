@@ -62,6 +62,8 @@ span {
 
 /* ================ NAVIGATION SETTING ================= */
 .navigation {
+  width: fit-content;
+
   margin-left: 0px;
 }
 
@@ -393,7 +395,7 @@ button:hover {
 }
 
 .persona:hover {
-  border: #9addfb 2px solid outset;
+  border: #9addfb 2px solid;
 }
 
 .personaTag {
@@ -414,7 +416,7 @@ button:hover {
 }
 
 .journeymap:hover {
-  border: #9addfb 2px solid outset;
+  border: #9addfb 2px solid;
 }
 
 .journeymapTag {
