@@ -1,36 +1,12 @@
-// ================== TO DO LIST ===============
-//
-// 1. Make sure to check that the computer generates a random number on the console.log ✅
-// 2. Make sure to check that the player can input the number in the input box. ✅
-//
-// 3. Make sure that the computer understands the number condition either for "Up", "Down" or "Equal" ✅
-// <<<<<< GUESS CONDITIONS FOR HIGHER NUMBER >>>>>>>>
-// // If the player has guessed the number that is higher than the generated number, inform the player to try again with lower number
-// // Repeat this process until... a) the player has guessed the correct number or b) the player has used all 5 chances
-//
-// <<<<<< GUESS CONDITIONS FOR LOWER NUMBER >>>>>>>>>>
-// // If the player has guess the number that is lower than the generated number, inform the player to try again with higher number
-// // Repeat the process until... a) the player has guessed the correct number or b) the player has used all 5 chances
-//
-// <<<<<< GUESS CONDITIONS FOR EQUAL NUMBER >>>>>>>>>
-// // If the player makes a correct guess, the system should say "you've got it!"
-//
-// ------ ADDITIONAL CONDITION FOR "GO BUTTON" -------
-// A. Check if the player has input the number between 1 and 100 (and colour the alert with red) ✅
-// B. Check if the player has input the whole number, not a decimal ✅
-//
-// 4. Make sure each player gets only 5 chances.
-// // The system does not deduct the chance for repeat.
-
 // <<<<<< BASIC FIELDS THAT EXIST FOR THE GAME >>>>>>>>>>
-let chanceArea = document.getElementById("chance-area"); // this shows how many chances they got leftover from 5.
-let userInput = document.getElementById("user-input"); // this indicates what number the player has guessed
-let resultArea = document.getElementById("result-area"); // this shows whether the user needs to guess a higher number or a lower number
+let chanceArea = document.getElementById("chance-area");
+let userInput = document.getElementById("user-input");
+let resultArea = document.getElementById("result-area");
 // <<<<<< NEEDED DURING PLAY >>>>>>>>
-let myButton = document.getElementById("my-button"); // this allows the users to guess any number
-let resetButton = document.getElementById("reset"); // this resets the generated number by the computer and the number of chances that each user can have
+let myButton = document.getElementById("my-button");
+let resetButton = document.getElementById("reset");
 // <<<<<< INFO FOR THE COMPUTER GENERATED ONLY >>>>>>>>>>>
-let computerNum = Math.floor(Math.random() * 100) + 1; // this generates a random number by the computer between 0 and 100.
+let computerNum = Math.floor(Math.random() * 100) + 1;
 let chances = 5;
 
 // THINKING ABOUT THE HISTORY
@@ -99,7 +75,7 @@ function play() {
   } else {
     resultArea.style.color = "black";
     document.getElementById("user-input").style.borderColor = "black";
-    return; // this should check if the user has input an integer or a decimal and display an error box if it is not an integer
+    return;
   }
 
   if (chances < 1) {
@@ -113,4 +89,4 @@ function pickRandomNum() {
   console.log("Correct", computerNum);
 }
 
-pickRandomNum(); // the reason I could not see the number on the console.log earlier is that I did not call this function.
+pickRandomNum();
