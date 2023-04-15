@@ -489,6 +489,16 @@ button:hover {
   margin-top: -220px;
 }
 
+.opening {
+  position: absolute;
+
+  width: 560px;
+  height: auto;
+
+  margin-top: -260px;
+  margin-left: 20px;
+}
+
 /* ============= ENDING BANNER ============= */
 .ending {
   position: absolute;
