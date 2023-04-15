@@ -20,6 +20,58 @@ h2 {
   margin-bottom: 50px;
 }
 
+/* ===== NAV BAR SETTING ====== */
+/* Navbar styles */
+.floating-menu {
+  font-family: sans-serif;
+  background: #add8e6;
+  border-radius: 15px;
+
+  width: 100px;
+  height: fit-content;
+  position: fixed;
+  opacity: 1;
+  z-index: 100;
+
+  padding: 3px;
+
+  margin-top: 100px;
+  margin-left: -160px;
+}
+
+.floating-menu:hover {
+  box-shadow: 0 5px 5px 5px rgba(173, 216, 230, 0.8);
+  opacity: 1;
+  transition-duration: 1s ease-in-out;
+
+  margin-left: -42px;
+}
+
+.floating-menu a,
+.floating-menu h3 {
+  color: black;
+  display: block;
+  font-size: 15px;
+  width: 140px;
+
+  padding-block: 3px;
+  margin: 0px;
+}
+
+.navigation {
+  margin-left: 0px;
+}
+
+.linksize {
+  width: fit-content;
+  padding: 20px;
+}
+
+.linksize:hover {
+  color: darkmagenta;
+}
+
+/* ======== MAIN CONTENT ======= */
 ol {
   box-sizing: border-box;
   border: 2px dotted lightgray;
