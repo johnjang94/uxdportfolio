@@ -12,12 +12,11 @@ let chances = 5;
 let gameOver = false;
 let history = [];
 
+go.addEventListener("click", play);
+resetButton.addEventListener("click", reset);
 userInput.addEventListener("focus", function () {
   userInput.value = "";
 });
-
-go.addEventListener("click", play);
-resetButton.addEventListener("click", reset);
 
 function play() {
   let userValue = userInput.value;
