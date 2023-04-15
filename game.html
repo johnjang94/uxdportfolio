@@ -15,73 +15,111 @@
       <a class="linksize" href="contact.html">Contact</a>
       <a class="linksize" href="codingjourney.html">Coding</a>
     </nav>
-    <h1>Welcome!</h1>
-    <p>
-      Welcome to my mini game project.<br />
-      <br />
-      On this web page, you will play a guessing game either just by yourself or
-      with your friends.
-    </p>
-    <div>
-      <p>Please read the following rules:</p>
-    </div>
-    <div>
-      <ol>
-        <h2>Rules</h2>
-        <li>You can only guess a random number between 1 and 100</li>
-        <li>
-          You will be given a total of 5 chances to guess the number that the
-          game system has generated<br />
-          (No, you will not know the correct number until you've guessed it
-          correctly)
-        </li>
-        <br />
-        <li>
-          You can only guess the whole number. No decimals are accepted<br /><br />
-          <ul>
-            ** Accepted numbers:
-            <li>34 ✅</li>
-            <li>30 ✅</li>
-            <li>27 ✅</li>
+    <div id="slide-show">
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/greeting.jpeg"
+          alt="greeting message"
+          class="greeting"
+        />
+        <p class="greeting-message">
+          Welcome to my world of guessing game.<br />
+          I am President Coriolanus Snow, originally the main host and the Head
+          of Hunger Games.
+        </p>
+      </div>
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/katness.jpg"
+          alt="greeting message"
+          class="greeting"
+        />
+        <p class="greeting-message">
+          I am in the situation that I need to fight off a brilliant fighter,
+          Ms. Katness Everdeen.<br />
+          She is quite a rebellious power indeed.
+        </p>
+      </div>
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/smile.jpeg"
+          alt="greeting message"
+          class="greeting"
+        />
+        <p class="greeting-message">
+          Fortunately, I hear that you are a big brain.<br />
+          I will give you great perks, but before that, I need you to talk to my
+          Senior Game-maker,<br />
+          Plutarch Heavensbee.
+        </p>
+      </div>
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/rules.jpeg"
+          alt="greeting message"
+          class="greeting"
+        />
+        <p class="greeting-message">
+          Thank you, Mr. President.<br />
+          Hey, so you are the chosen candidate, huh?<br /><br />
+          I don't have much time, so let's jump straight into the rules.
+        </p>
+      </div>
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/mockingjay.jpg"
+          alt="Destroyed District 13"
+          class="greeting2"
+        />
+        <div>
+          <ol>
+            <h2>Rules</h2>
+            <li>You can only guess a random number between 1 and 100</li>
+            <li>
+              You will be given a total of 5 chances to guess the number that
+              the game system has generated<br />
+              (No, you will not know the correct number until you've guessed it
+              correctly)
+            </li>
             <br />
-          </ul>
-          <ul>
-            ** Not accepted numbers:
-            <li>34.2 ❌</li>
-            <li>35.8 ❌</li>
-            <li>12.5 ❌</li>
-          </ul>
-        </li>
-        <br />
-        <li>
-          Your chance will be deducted every time you guess incorrectly. Once
-          your chance reaches at 0, you will not be able to play the game
-          anymore.
-        </li>
-      </ol>
-    </div>
-    <div class="conditions">
-      <p>
-        Please remember the following conditions as well:
-        <li>
-          If you try to guess any number below 1 or above 100, you will be
-          reminded to guess a random number within the range.
-        </li>
-        <li>
-          If you try to guess any number with decimals, you will be reminded to
-          guess with whole numbers.
-        </li>
-        <li>
-          If you try to guess the same number twice, you will be reminded to try
-          a different number.
-        </li>
-        <li>Your chance will not be deducted if you make above attempts.</li>
-      </p>
+            <li>
+              You can only guess the integers, no decimals are accepted<br /><br />
+              <ul>
+                ** Accepted numbers:
+                <li>34 ✅</li>
+                <li>30 ✅</li>
+                <li>27 ✅</li>
+                <br />
+              </ul>
+              <ul>
+                ** Not accepted numbers:
+                <li>34.2 ❌</li>
+                <li>35.8 ❌</li>
+                <li>12.5 ❌</li>
+              </ul>
+            </li>
+            <br />
+            <li>
+              Your chance will be deducted every time you guess incorrectly.
+              Once your chance reaches at 0, you will not be able to play the
+              game anymore.
+            </li>
+          </ol>
+        </div>
+      </div>
+      <div class="slide">
+        <img
+          src="../uxdportfolio/game/images/final_comment.jpeg"
+          alt="greeting message"
+          class="greeting"
+        />
+        <p class="greeting-message2">Having said that, good luck my dear.</p>
+      </div>
     </div>
     <div>
       <h1>Are you ready to play the game?</h1>
       <img
-        src="../uxdportfolio/game/images/opening.gif"
+        src="../game/images/opening.gif"
         alt="Opening"
         class="opening"
       /><br />
@@ -89,5 +127,6 @@
         <button class="play">Let's go!</button>
       </a>
     </div>
+    <script src="../uxdportfolio/game/js/game.js"></script>
   </body>
 </html>
