@@ -11,10 +11,15 @@ if (slideCount === 5) {
 }
 
 function nextSlide() {
-  currentSlide = (currentSlide + 1) % slides.length;
-  slides[currentSlide].style.display = "block";
-
-  if (slides !== slides[currentSlide]) {
-    slides.style.display = "none";
+  // Hide all other slides except the current one
+  for (let i = 0; i < slides.length; i++) {
+    if (i !== currentSlide) {
+      slides[i].style.display = "none";
+    } else {
+      slides[i].style.display = "block";
+    }
   }
+
+  // Move to the next slide
+  currentSlide = (currentSlide + 1) % slides.length;
 }
