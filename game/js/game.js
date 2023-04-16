@@ -11,10 +11,7 @@ if (slideCount === 5) {
 }
 
 function nextSlide() {
-  if (slides !== slides[currentSlide]) {
-    slides.style.display = "none";
-  } else {
-    currentSlide = (currentSlide + 1) % slides.length;
-    slides[currentSlide].style.display = "block";
-  }
+  slides[currentSlide].style.display = "none";
+  currentSlide = (currentSlide + 1) % slides.length;
+  slides[currentSlide].style.display = "block";
 }
