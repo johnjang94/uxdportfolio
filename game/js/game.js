@@ -12,8 +12,6 @@ if (slideCount === 5) {
     slides[currentSlide].style.display = "block";
   }),
     10000;
-} else {
-  slides[currentSlide].style.display = "block";
 }
 
 function nextSlide() {
