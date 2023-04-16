@@ -7,7 +7,10 @@ slideCount++;
 // Check if the slide count is equal to 5
 if (slideCount === 5) {
   // Set a delay of 8 seconds before displaying the next slide
-  setInterval(nextSlide, 15000);
+  setTimeout(function () {
+    currentSlide = (currentSlide + 1) % slides.length;
+    nextSlide();
+  }, 15000);
 }
 
 function nextSlide() {
