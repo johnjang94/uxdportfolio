@@ -15,11 +15,9 @@ function nextSlide() {
   for (let i = 0; i < slides.length; i++) {
     if (i !== currentSlide) {
       slides[i].style.display = "none";
-    } else {
-      slides[i].style.display = "block";
     }
   }
-
+  slides[currentSlide].style.display = "block";
   // Move to the next slide
   currentSlide = (currentSlide + 1) % slides.length;
 }
