@@ -15,6 +15,12 @@ passwordInput.addEventListener("change", function () {
     window.location =
       "https://johnjang94.github.io/uxdportfolio/televu_introduction.html";
   } else {
+    setTimeout(() => {
+      (resultArea.textContent = "Please enter the password."),
+        (resultArea.style.color = "black");
+      passwordInput.style.borderColor = "black";
+      passwordInput.value = "";
+    }, 2000);
     (resultArea.textContent =
       "That is not a correct password. Please try again."),
       (resultArea.style.color = "red");
