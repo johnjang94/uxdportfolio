@@ -12,8 +12,10 @@ passwordInput.addEventListener("change", function () {
     passwordInput.classList.add("correct-password");
     (resultArea.textContent = "You may enter."),
       (resultArea.style.color = "green");
-    window.location =
-      "https://johnjang94.github.io/uxdportfolio/televu_introduction.html";
+    setTimeout(() => {
+      window.location =
+        "https://johnjang94.github.io/uxdportfolio/televu_introduction.html";
+    }, 1000);
   } else {
     setTimeout(() => {
       (resultArea.textContent = "Please enter the password."),
