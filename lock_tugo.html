@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Please Enter Password</title>
+    <link rel="stylesheet" href="../lock/css/lock_tugo.css" />
+  </head>
+  <body>
+    <img
+      src="../lock/images/background.jpg"
+      alt="Background image"
+      class="background"
+    />
+    <img
+      src="../lock/images/identification.jpeg"
+      alt="Identification"
+      class="identification"
+    />
+    <div class="lock-container">
+      <div class="lock">
+        <div class="lock-body">
+          <p id="result-area">Please enter the password:</p>
+          <input type="password" id="password-input" onfocus="this.value= ''" />
+          <button>></button>
+        </div>
+      </div>
+    </div>
+    <script src="../lock/js/lock_tugo.js"></script>
+  </body>
+</html>
