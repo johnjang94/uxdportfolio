@@ -1,0 +1,151 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+
+  background-image: url(../images/spring.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  margin-top: 50px;
+}
+
+.back {
+  width: 25px;
+  height: auto;
+
+  margin-top: 40px;
+  margin-left: 40px;
+}
+
+.back-button {
+  position: absolute;
+  border: none;
+  background-color: transparent;
+
+  font-size: 20px;
+
+  margin-top: 37px;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: white;
+  color: peru;
+}
+
+.container {
+  box-sizing: border-box;
+  border: 1px dotted whitesmoke;
+  border-radius: 20px;
+  background-color: rgba(240, 255, 255, 0.9);
+
+  padding: 50px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
+    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
+    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+  margin-top: 30px;
+}
+
+.plus {
+  border: 1px solid black;
+  border-radius: 100px;
+  text-decoration: none;
+  background-color: transparent;
+
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.task-area {
+  border: 1px lightgrey solid;
+}
+
+.task-tabs {
+  display: flex;
+  border-bottom: 1px lightgrey solid;
+  position: relative;
+}
+
+.task-tabs div {
+  padding: 1em;
+  cursor: pointer;
+}
+
+#underline {
+  position: absolute;
+
+  width: 50px;
+  height: 4px;
+
+  background-color: pink;
+
+  left: 0px;
+  top: 55px;
+
+  padding: 0px;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+
+  border-bottom: 0.5px dotted black;
+
+  padding: 15px 15px 10px 15px;
+  margin-top: 5px;
+  margin-left: 5px;
+  margin-bottom: -0px;
+}
+
+.task-done {
+  display: flex;
+  text-decoration: line-through;
+
+  background-color: rgba(209, 212, 212, 0.9);
+  width: 1050px;
+
+  padding: 19px 19px 15px 19px;
+  margin: -20px -20px -10px -20px;
+}
+
+.task-detail {
+  display: flex;
+  background-color: rgba(240, 255, 255, 0.9);
+  width: 1050px;
+}
+
+.task-detail:hover {
+  background-color: white;
+}
+
+.buttons {
+  display: flex;
+}
+
+.check {
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: green;
+}
+
+.delete {
+  font-size: 20px;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: red;
+}
+
+.refresh {
+  font-size: 25px;
+  border: none;
+  text-decoration: none;
+  background-color: transparent;
+  color: black;
+}
