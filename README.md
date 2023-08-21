@@ -1,4 +1,4 @@
-# <h1 style="color:red">PLEASE NOTE: THE CURRENT PORTFOLIO HAS BEEN DEPRECIATED.</h1><br/>
+# PLEASE NOTE: THE CURRENT PORTFOLIO HAS BEEN DEPRECIATED<br/>
 # FOR THE UPDATED VERSION, PLEASE VISIT (https://johnjang94.github.io/portfolio/)<br/><br/>
 # Welcome to my UX Design Portfolio, 2nd Generation!
 
