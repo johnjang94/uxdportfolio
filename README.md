@@ -5,23 +5,27 @@
 My website is now focused specifically on the design projects either that I am creating presently or that I have created in the past.
 
 ---
-## Project 1 | Redesigning an internal web-based communication portal for a telecommunication company
+### Project 1 | Redesigning an internal web-based communication portal for a telecommunication company
 
 - This was a team-based and a real-world project
-- Objective(s): re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive
-- Mission Criteria:<br/>
-  <li>recreate the login entry</li><br/>
-  <li>recreate the UI of the pages that connect to the main menu</li><br/>
-  <li>recreate the structure of a page called "video" --- re-construct the architecture to make it searchable, save with custom names, etc.</li>
-  <li>create the product to make it responsive across devices</li>
+  <br/>
+* Objective(s):<br/>
+  > re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive
+* Mission Criteria:<br/>
+  > recreate the login entry<br/>
+  > recreate the UI of the pages that connect to the main menu<br/>
+  > recreate the structure of a page called "video" --- re-construct the architecture to make it searchable, save with custom names, etc.<br/>
+  > create the product to make it responsive across devices
 
 ### Project 2 | Redesign a website for a travel insurance company
 
 - This was a small project that I did myself
-- Objective(s): re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times
-- Mission Criteria:<br/>
-  <li>recreate and simplify the navigation bar</li><br/>
-  <li>recreate the site map to accommodate the most important information to be foremost spotted among customers</li>
+  <br/>
+* Objective(s):<br/>
+  > re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times
+* Mission Criteria:<br/>
+  > recreate and simplify the navigation bar<br/>
+  > recreate the site map to accommodate the most important information to be foremost spotted among customers
 
 ---
 
